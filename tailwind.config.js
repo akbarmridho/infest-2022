@@ -5,7 +5,23 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'tgreen': {
+          100: '#6C9493',
+          200: '#447270',
+          300: '#203D3B'
+        },
+        'tyellow': {
+          100: '#F6E272',
+          200: 'F6B815',
+          300: '#F69312'
+        }
+      },
+      backgroundImage: {
+        'main': "url('/background.svg')"
+      }
+    }
   },
   plugins: [],
 }
