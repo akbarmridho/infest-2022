@@ -11,7 +11,7 @@ export default class Layout extends Component<Props, object> {
         return (
             <>
                 <Header/>
-                <main className='bg-main bg-cover bg-repeat-y flex justify-center'>
+                <main className='bg-main-50 bg-cover bg-repeat-y flex justify-center'>
                     <div className="bg-white w-full xl:max-w-screen-xl">
                         {this.props.children}
                     </div>

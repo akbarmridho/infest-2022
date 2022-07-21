@@ -14,12 +14,14 @@ module.exports = {
         },
         'tyellow': {
           100: '#F6E272',
-          200: 'F6B815',
+          200: '#F6B815',
           300: '#F69312'
         }
       },
       backgroundImage: {
-        'main': "url('/background.svg')"
+        'main': "url('/background.svg')",
+        'main-50': "url('/background-50.jpg')",
+        'main-75': "url('/background-75.jpg')"
       }
     }
   },

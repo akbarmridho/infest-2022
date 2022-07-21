@@ -4,6 +4,9 @@ import LogoBanner from '../components/LogoBanner'
 import About from '../components/About'
 import Theme from '../components/Theme'
 import Teaser from '../components/Teaser'
+import CardDeck from '../components/CardDeck'
+import Timeline from '../components/Timeline'
+import FAQDeck from '../components/FAQDeck'
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +22,9 @@ const Home: NextPage = () => {
         <About/>
         <Theme/>
         <Teaser/>
+        <CardDeck />
+        <Timeline />
+        <FAQDeck />
       </div>
     </>
   )
