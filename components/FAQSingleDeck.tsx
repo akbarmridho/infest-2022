@@ -1,4 +1,4 @@
-import FAQ from "./FAQ";
+import FAQ, { FAQProps } from "./FAQ";
 
 const data = [
     {
@@ -15,18 +15,26 @@ const data = [
     }
 ]
 
-const FAQDeck = () => {
+
+interface Props {
+    items: FAQProps[]
+}
+
+const FAQSingleDeck = () => {
     return (
         <div className='flex justify-center'>
-            <div className='bg-gray-500 w-full mx-16 my-8 max-w-screen-md'>
-                {
-                    data.map((each, i) => {
-                        return <FAQ key={i} question={each.question} answer={each.answer} />
-                    })
-                }
+            <div className='w-full mx-16 my-8 max-w-screen-md'>
+                <h2 className="h2 text-center text-gradient mb-8">FAQ</h2>
+                <div>
+                    {
+                        data.map((each, i) => {
+                            return <FAQ key={i} question={each.question} answer={each.answer} />
+                        })
+                    }
+                </div> 
             </div> 
         </div>
     )
 }
 
-export default FAQDeck
+export default FAQSingleDeck

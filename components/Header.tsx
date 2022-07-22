@@ -19,7 +19,7 @@ const Header = () => {
                             <Image src={logo} alt="Logo mini" height={scale*logo.height} width={scale*logo.width}/>
                         </Link>
                     </div>
-                    <div className='mr-8 flex'>
+                    <div className='mr-8 flex text-gray-100'>
                         <div className='mr-8 text-white text-lg'>
                             <Link href='/' >Beranda</Link>
                         </div>

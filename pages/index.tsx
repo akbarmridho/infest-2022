@@ -6,7 +6,7 @@ import Theme from '../components/Theme'
 import Teaser from '../components/Teaser'
 import CardDeck from '../components/CardDeck'
 import Timeline from '../components/Timeline'
-import FAQDeck from '../components/FAQDeck'
+import FAQMultipleDeck from '../components/FAQMultipleDeck'
 import Sponsor from '../components/Sponsor'
 
 const timelines = [
@@ -19,6 +19,29 @@ const timelines = [
       date: '30 Juli 2022'
   }
 ]
+
+const qna = {
+  webinar: [
+    {
+        question: 'lorem ipsum dos color sit amet',
+        answer: 'this is some fucking answer loooong answer as;ldkjasdmsaoi asldjaslkdas asldkjashdkljas aslkjdas askljdhasljkd aslkjdhas'
+    },
+    {
+        question: 'lorem ipsum dos color sit amet',
+        answer: 'this is some fucking answer loooong answer as;ldkjasdmsaoi asldjaslkdas asldkjashdkljas aslkjdas askljdhasljkd aslkjdhas'
+    },
+    {
+        question: 'lorem ipsum dos color sit amet',
+        answer: 'this is some fucking answer loooong answer as;ldkjasdmsaoi asldjaslkdas asldkjashdkljas aslkjdas askljdhasljkd aslkjdhas'
+    }
+  ],
+  'Trading Competition': [
+    {
+      question: 'Anjaayyy qt',
+      answer: 'hehe btul'
+    }
+  ]
+}
 
 const Home: NextPage = () => {
   return (
@@ -36,7 +59,7 @@ const Home: NextPage = () => {
         <Teaser/>
         <CardDeck />
         <Timeline events={timelines}/>
-        <FAQDeck />
+        <FAQMultipleDeck items={qna}/>
         <Sponsor />
       </div>
     </>

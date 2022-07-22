@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-interface Props {
+export interface FAQProps {
     question: string,
     answer: string
 }
 
-const FAQ = ({question, answer}: Props) => {
+const FAQ = ({question, answer}: FAQProps) => {
     const [isActive, setIsActive] = useState<boolean>(false)
 
     const handleClick = () => {
@@ -14,15 +14,19 @@ const FAQ = ({question, answer}: Props) => {
 
     return (
         <div className="m-4">
-            <div className={`w-full rounded-[16px] px-5 py-6 flex flex-row items-top ${isActive ? "bg-tyellow-100" : "bg-white"}`}>
+            <div className={`w-full rounded-[16px] px-6 py-8 flex flex-row items-top ${isActive ? "bg-gradient" : "bg-white"} drop-shadow-lg`}>
                 <div className="flex-grow">
-                    <div className='text-lg font-semibold'>
-                        {question}
+                    <div>
+                        <h4 className="h3 font-tommy text-gray-800">
+                            {question}
+                        </h4>
                     </div>
                     {
                         isActive &&
                             <div className="mt-4">
-                                {answer}
+                                <p className="p text-gray-800">
+                                    {answer}
+                                </p>
                             </div>
                     }
                 </div>

@@ -26,10 +26,26 @@ li {
   @apply font-wotfard
 }
 
+h2 {
+  @apply font-tommy
+}
+
 .h2 {
-  @apply text-6xl font-tommy
+  @apply text-6xl
 }
 
 .h3 {
   @apply text-2xl
+}
+
+.p {
+  @apply text-xl
+}
+
+.bg-gradient {
+  @apply bg-gradient-to-b from-tyellow-200 to-tyellow-100
+}
+
+.text-gradient {
+  @apply text-transparent bg-clip-text bg-gradient-to-b from-tyellow-300 to-tyellow-100
 }
