@@ -22,6 +22,10 @@ module.exports = {
         'main': "url('/background.svg')",
         'main-50': "url('/background-50.jpg')",
         'main-75': "url('/background-75.jpg')"
+      },
+      fontFamily: {
+        tommy: ["tommy-medium", "sans-serif"],
+        wotfard: ["wotfard-regular", "sans-serif"]
       }
     }
   },

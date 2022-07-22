@@ -1,7 +1,10 @@
 const About = () => {
     return (
         <div className='flex justify-center'>
-            <div className='bg-gray-500 w-full mx-16 my-8 h-72'></div> 
+            <div className='w-full mx-16 my-8'>
+                <h2 className='h2 text-center'>Apa itu INFEST?</h2>
+                <p className="h3 text-center mt-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo dolor sequi eligendi amet, libero esse consequatur assumenda repellat, fugit quidem non dignissimos, vero minima doloribus aliquid nulla nostrum sit vel?</p>
+            </div> 
         </div>
     )
 }

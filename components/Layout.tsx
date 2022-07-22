@@ -11,7 +11,7 @@ const Layout = ({children} : Props) => {
         <>
             <Header/>
                 <main className='bg-main-50 bg-cover bg-repeat-y flex justify-center'>
-                    <div className="bg-white w-full xl:max-w-screen-xl">
+                    <div className="bg-[rgba(255,255,255,0.5)] w-full xl:max-w-screen-xl">
                         {children}
                     </div>
                 </main>

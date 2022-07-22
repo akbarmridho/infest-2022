@@ -13,8 +13,9 @@ interface Props {
 const Timeline = ({ events } : Props) => {
     return (
         <div className='flex justify-center'>
-            <div className='bg-gray-500 mx-16 my-8 w-[600px]'>
-                <div className="grid grid-cols-[260px_80px_260px]">
+            <div className='mx-16 my-8 w-[600px]'>
+                <h2 className="h2 text-center">Timeline</h2>
+                <div className="grid grid-cols-[260px_80px_260px] mt-4">
                     {
                         events.map((event, i) => {
                             return (

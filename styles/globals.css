@@ -2,10 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'tommy-medium';
+  src: url('/fonts/Made Tommy Medium.otf');
+}
+
+@font-face {
+  font-family: 'wotfard-regular';
+  src: url('/fonts/Wotfard Regular.eot');
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
 
 .flip-x {
   transform: scale(-1, 1);
+}
+
+p,
+button,
+li {
+  @apply font-wotfard
+}
+
+.h2 {
+  @apply text-6xl font-tommy
+}
+
+.h3 {
+  @apply text-2xl
 }

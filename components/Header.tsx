@@ -15,7 +15,9 @@ const Header = () => {
             <div className="w-full bg-tgreen-300 h-20">
                 <div className="flex justify-between items-center">
                     <div className='my-4 ml-8'>
-                        <Image src={logo} alt="Logo mini" height={scale*logo.height} width={scale*logo.width}/>
+                        <Link href='/' >
+                            <Image src={logo} alt="Logo mini" height={scale*logo.height} width={scale*logo.width}/>
+                        </Link>
                     </div>
                     <div className='mr-8 flex'>
                         <div className='mr-8 text-white text-lg'>
