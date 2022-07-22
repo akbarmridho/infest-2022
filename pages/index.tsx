@@ -9,6 +9,17 @@ import Timeline from '../components/Timeline'
 import FAQDeck from '../components/FAQDeck'
 import Sponsor from '../components/Sponsor'
 
+const timelines = [
+  {
+      name: 'Event 1',
+      date: '24 Juli 2022'
+  },
+  {
+      name: 'Event 2',
+      date: '30 Juli 2022'
+  }
+]
+
 const Home: NextPage = () => {
   return (
     <>
@@ -24,7 +35,7 @@ const Home: NextPage = () => {
         <Theme/>
         <Teaser/>
         <CardDeck />
-        <Timeline />
+        <Timeline events={timelines}/>
         <FAQDeck />
         <Sponsor />
       </div>
