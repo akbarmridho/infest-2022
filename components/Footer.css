@@ -1,8 +1,8 @@
-a:link {
+.FooterContainer a:link {
     text-decoration: none;
 }
 
-h1 {
+.FooterContainer h1 {
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -12,7 +12,7 @@ h1 {
     color: #F1F4F8;
 }
 
-h2 {
+.FooterContainer h2 {
     font-family: Lexend Deca;
     font-style: normal;
     font-weight: normal;
@@ -22,7 +22,7 @@ h2 {
     color: #F1F4F8;
 }
 
-h3 {
+.FooterContainer h3 {
     font-family: Lexend Deca;
     font-style: normal;
     font-weight: normal;
@@ -33,7 +33,7 @@ h3 {
     margin: 19px 0px;
 }
 
-h4 {
+.FooterContainer h4 {
     font-family: Lexend Deca;
     font-style: normal;
     font-weight: normal;
@@ -44,7 +44,7 @@ h4 {
     margin-bottom: 16px;
 }
 
-h5 {
+.FooterContainer h5 {
     font-family: Lexend Deca;
     font-style: normal;
     font-weight: normal;
