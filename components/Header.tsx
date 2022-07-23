@@ -9,6 +9,8 @@ const Header = () => {
     const [dropdown, setDropdown] = useState<boolean>(false)
 
     const handleDropdown = () => setDropdown(!dropdown)
+    const toggleOn = () => setDropdown(true)
+    const toggleOff = () => setDropdown(false)
 
     return (
         <>
@@ -23,7 +25,7 @@ const Header = () => {
                         <div className='mr-8 text-gray-100 text-lg hover:text-gray-300'>
                             <Link href='/' >Beranda</Link>
                         </div>
-                        <div className='relative'>
+                        <div className='relative' onMouseEnter={toggleOn} onMouseLeave={toggleOff}>
                             <button className='text-gray-100 text-lg inline-flex items-center hover:text-gray-300' onClick={handleDropdown}>
                                 Acara
                                 <svg className="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

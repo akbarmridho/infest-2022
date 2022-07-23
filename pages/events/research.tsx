@@ -54,7 +54,7 @@ const Research: NextPage = () => {
       </Head>
 
       <div>
-        <CompetitionBanner title='EQUITY RESEARCH COMPETITION' content="Lorem ipsum dos color sit amett"/>
+        <CompetitionBanner title='EQUITY RESEARCH COMPETITION' content="Lorem ipsum dos color sit amett" actions={[{name: 'Registrasi', href:'https://google.com'}, {name: 'Guidebook', href:'https://google.com'}]}/>
         <About title="Tentang" content="Lorem ipsum dos color sit amet"/>
         <Rewards />
         <Pricing title='Biaya' content={pricing}/>
