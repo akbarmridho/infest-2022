@@ -21,7 +21,7 @@ const Timeline = ({ events } : Props) => {
                             return (
                                 <>
                                     <TimelineDivider />
-                                    <TimelineItem orientation={i % 2 !== 0 ? 'left' : 'right'}/>
+                                    <TimelineItem orientation={i % 2 !== 0 ? 'left' : 'right'} key={i}/>
                                 </>
                             )
                         })

@@ -43,6 +43,11 @@ const qna = {
   ]
 }
 
+const about = {
+  title: "Apa itu INFEST?",
+  content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo dolor sequi eligendi amet, libero esse consequatur assumenda repellat, fugit quidem non dignissimos, vero minima doloribus aliquid nulla nostrum sit vel?"
+}
+
 const Home: NextPage = () => {
   return (
     <>
@@ -54,7 +59,7 @@ const Home: NextPage = () => {
 
       <div>
         <LogoBanner/>
-        <About/>
+        <About title={about.title} content={about.content}/>
         <Theme/>
         <Teaser/>
         <CardDeck />

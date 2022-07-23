@@ -7,7 +7,7 @@ interface Props {
 }
 
 const FAQButton = ({currentActive, name, onClick} : Props) => {
-    return <button className={`rounded-full h-10 px-6 font-tommy text-gray-900 mx-2 text-xl ${currentActive === name ? 'bg-gradient' : 'bg-white'}`} onClick={onClick}>{ name }</button>
+    return <button className={`drop-shadow rounded-full h-10 px-6 font-tommy text-gray-900 mx-2 text-xl ${currentActive === name ? 'bg-gradient' : 'bg-white'}`} onClick={onClick}>{ name }</button>
 }
 
 export default FAQButton

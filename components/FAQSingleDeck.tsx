@@ -20,14 +20,14 @@ interface Props {
     items: FAQProps[]
 }
 
-const FAQSingleDeck = () => {
+const FAQSingleDeck = ({items} : Props) => {
     return (
         <div className='flex justify-center'>
             <div className='w-full mx-16 my-8 max-w-screen-md'>
                 <h2 className="h2 text-center text-gradient mb-8">FAQ</h2>
                 <div>
                     {
-                        data.map((each, i) => {
+                        items.map((each, i) => {
                             return <FAQ key={i} question={each.question} answer={each.answer} />
                         })
                     }
