@@ -1,10 +1,11 @@
 const TimelineDivider = () => {
     return (<>
-        <div className="bg-blue-200"></div>
-        <div className='w-20 bg-blue-100 flex justify-center'>
-            <div className='h-32 w-[5px] bg-black'></div>
+        <div className=""></div>
+        <div className='w-20 flex justify-center'>
+            <div className='h-32 w-[2.5px] bg-tyellow-100'></div>
+            <div className='h-32 w-[2.5px] bg-tyellow-300'></div>
         </div>
-        <div className="bg-blue-200">
+        <div className="">
         </div>
     </>)
 }

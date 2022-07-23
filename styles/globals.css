@@ -26,8 +26,13 @@ li {
   @apply font-wotfard
 }
 
-h2 {
+h2,
+h1 {
   @apply font-tommy
+}
+
+.h1 {
+  @apply text-7xl
 }
 
 .h2 {
