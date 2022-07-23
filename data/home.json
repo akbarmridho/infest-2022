@@ -1,0 +1,50 @@
+{
+    "about": {
+        "title": "Apa itu INFEST?",
+        "content": "Investment Festival (INFEST) adalah acara tahunan yang diselenggarakan oleh Kelompok Studi Ekonomi Pasar Modal (KSEP) ITB yang berupa seminar mengenai investasi dan pasar modal untuk mengajak masyarakat Indonesia berinvestasi"
+    },
+    "theme": {
+        "title": "Rise Up and Invest",
+        "content": "INFEST 2021 mengusung tema \"Rise Up and Invest\", yaitu suatu ajakan kepada masyarakat Indonesia untuk bangkit dari kondisi ekonomi yang terpuruk dengan cara berinvestasi"
+    },
+    "events": [
+        {
+            "title": "Trading Competition",
+            "content": "Kompetisi tim yang beranggotakan 1 s.d. 3 orang. Peserta akan dibekali dana virtual yang harus digunakan untuk mendapatkan keuntungan yang sebesar-besarnya dengan analisis teknikal, bandarmologi, atau yang lainnya",
+            "href": "/events/competition/trading"
+        },
+        {
+            "title": "Equity Research Competition",
+            "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat.",
+            "href": "/events/competition/research"
+        },
+        {
+            "title": "Webinar",
+            "content": "Seminar online mengenai investasi dan pasar modal oleh pembicara ternama dengan topik-topik yang menarik",
+            "href": "/events/webinar"
+        },
+        {
+            "title": "Workshop",
+            "content": "Workshop online mengenai investasi dan pasar modal yang akan dibawakan oleh pembicara ternama dan berpengalaman di bidangnya",
+            "href": "/events/workshop"
+        }
+    ],
+    "timeline": [
+        {
+            "name": "Launch",
+            "date": "Agustus 2022"
+        },
+        {
+            "name": "Equity Research Competition",
+            "date": "1 Agustus - 1 September 2022"
+        },
+        {
+            "name": "Trading Competition",
+            "date": "5 September - 23 September 2022"
+        },
+        {
+            "name": "Webinar",
+            "date": "1-2 Oktober 2022"
+        }
+    ]
+}

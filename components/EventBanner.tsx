@@ -9,7 +9,7 @@ interface Props {
     }[]
 }
 
-const CompetitionBanner = ({title, content, actions} : Props) => {
+const EventBanner = ({title, content, actions} : Props) => {
     return (
         <div className='flex justify-center'>
             <div className='w-full mx-16 my-16'>
@@ -27,4 +27,4 @@ const CompetitionBanner = ({title, content, actions} : Props) => {
     )
 }
 
-export default CompetitionBanner
+export default EventBanner

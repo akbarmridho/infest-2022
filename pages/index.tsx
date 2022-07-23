@@ -1,4 +1,3 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
 import LogoBanner from '../components/LogoBanner'
 import About from '../components/About'
@@ -8,17 +7,7 @@ import CardDeck from '../components/CardDeck'
 import Timeline from '../components/Timeline'
 import FAQMultipleDeck from '../components/FAQMultipleDeck'
 import Sponsor from '../components/Sponsor'
-
-const timelines = [
-  {
-      name: 'Event 1',
-      date: '24 Juli 2022'
-  },
-  {
-      name: 'Event 2',
-      date: '30 Juli 2022'
-  }
-]
+import homeData from '../data/home.json'
 
 const qna = {
   webinar: [
@@ -43,12 +32,12 @@ const qna = {
   ]
 }
 
-const about = {
-  title: "Apa itu INFEST?",
-  content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo dolor sequi eligendi amet, libero esse consequatur assumenda repellat, fugit quidem non dignissimos, vero minima doloribus aliquid nulla nostrum sit vel?"
-}
-
-const Home: NextPage = () => {
+const Home = ({
+  about,
+  theme,
+  events,
+  timeline
+} : typeof homeData) => {
   return (
     <>
       <Head>
@@ -63,12 +52,18 @@ const Home: NextPage = () => {
         <Theme/>
         <Teaser/>
         <CardDeck />
-        <Timeline events={timelines}/>
+        <Timeline events={timeline}/>
         <FAQMultipleDeck items={qna}/>
         <Sponsor />
       </div>
     </>
   )
+}
+
+export async function getStaticProps() {
+  const data = homeData
+
+  return {props: data}
 }
 
 export default Home
