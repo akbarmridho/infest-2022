@@ -12,8 +12,17 @@
   src: url('/fonts/Wotfard Regular.eot');
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 ::-webkit-scrollbar {
   display: none;
+}
+
+.mx {
+  @apply lg:mx-12 xl:mx-16 mx-6 my-8 lg:my-12
 }
 
 .flip-x {

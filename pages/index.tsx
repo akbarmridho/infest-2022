@@ -53,7 +53,7 @@ const Home = ({
       <div>
         <LogoBanner/>
         <About title={about.title} content={about.content}/>
-        <Theme/>
+        <Theme title={theme.title} content={theme.content}/>
         <Teaser/>
         <CardDeck />
         <Timeline events={timeline}/>

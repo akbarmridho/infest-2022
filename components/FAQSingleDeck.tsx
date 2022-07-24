@@ -23,7 +23,7 @@ interface Props {
 const FAQSingleDeck = ({items} : Props) => {
     return (
         <div className='flex justify-center'>
-            <div className='w-full mx-16 my-8 max-w-screen-md'>
+            <div className='w-full max-w-screen-md mx'>
                 <h2 className="h2 text-center text-gradient mb-8">FAQ</h2>
                 <div>
                     {

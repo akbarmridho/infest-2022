@@ -9,7 +9,7 @@ interface Props {
 const Pricing = ({title, content} : Props) => {
     return (
         <div className='flex justify-center'>
-            <div className='w-full mx-16 my-8'>
+            <div className='w-full mx'>
                 <h2 className='h2 text-center text-gradient'>{title}</h2>
                 {
                     content.map((each, i) => {

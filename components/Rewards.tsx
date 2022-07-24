@@ -21,7 +21,7 @@ const prizes = [
 const Rewards = () => {
     return (
         <div className='flex justify-center'>
-            <div className="w-full mx-16 my-8 max-w-screen-lg">
+            <div className="w-full mx max-w-screen-lg">
                 <h2 className="h2 text-gradient text-center mb-4">Hadiah</h2>
                 <div className='flex flex-row flex-wrap'>
                     {
