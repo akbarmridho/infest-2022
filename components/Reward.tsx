@@ -15,7 +15,7 @@ const PrizeIcon = () => {
 
 const Reward = ({position, backgroundColor, prize} : Props) => {
     return (
-        <div className="basis-full md:basis-1/3 p-4 my-2">
+        <div className="basis-full md:basis-1/4 p-4 my-2">
             <div className="flex justify-center mb-4">
                 <div className='h-[150px] w-[150px] rounded-full grid grid-cols-1 place-items-center relative' style={{backgroundColor}}>
                     <div>

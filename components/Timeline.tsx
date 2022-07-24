@@ -15,7 +15,7 @@ const Timeline = ({ events } : Props) => {
         <div className='flex justify-center'>
             <div className='mx w-[600px]'>
                 <h2 className="h2 text-center text-gradient">Timeline</h2>
-                <div className="grid grid-cols-[260px_80px_260px] mt-4">
+                <div className="grid grid-cols-[80px_260px] sm:grid-cols-[260px_80px_260px] mt-4">
                     {
                         events.map((event, i) => {
                             return (
