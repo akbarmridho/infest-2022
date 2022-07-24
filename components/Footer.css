@@ -3,7 +3,7 @@
 }
 
 .FooterContainer h1 {
-    font-family: Poppins;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -13,7 +13,7 @@
 }
 
 .FooterContainer h2 {
-    font-family: Lexend Deca;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -23,7 +23,7 @@
 }
 
 .FooterContainer h3 {
-    font-family: Lexend Deca;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -34,7 +34,7 @@
 }
 
 .FooterContainer h4 {
-    font-family: Lexend Deca;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -45,7 +45,7 @@
 }
 
 .FooterContainer h5 {
-    font-family: Lexend Deca;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -96,6 +96,8 @@
 
 .SocialIcon {
     margin-right: 16px;
+    color: white;
+    width: 2rem;
 }
 
 .Logos {
@@ -139,6 +141,8 @@
 
 .ContactIcon {
     margin-left: 8px;
+    width: 1.33rem;
+    height: 0.75rem;
 }
 
 .ContactName {

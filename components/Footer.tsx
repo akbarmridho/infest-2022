@@ -1,5 +1,10 @@
-import Image1 from "../public/logo-mini.png"
-import Image2 from "../public/ksep-logo.webp"
+import LogoInfest from "../public/logo-mini.png"
+import LogoKSEP from "../public/ksep-logo.webp"
+import Instagram from "../public/instagram.svg"
+import Linkedin from "../public/linkedin.svg"
+import Line from "../public/line.svg"
+import Whatsapp from "../public/whatsapp.svg"
+
 import Image from "next/image"
 const Footer = () => {
     return (
@@ -19,16 +24,18 @@ const Footer = () => {
                     <div className="SocialMedia">
                         <div className="SocialIcon">
                             <a href="https://instagram.com/infest.bdg" target="_blank" rel="noopener noreferrer">
-                                <i className="fab fa-instagram fa-2x"></i>
+                                <Image src={Instagram} alt="instagram" />
                             </a>
                         </div>
-                        <a href="https://www.linkedin.com/company/investment-festival-itb/about/" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-linkedin fa-2x"></i>
-                        </a>
+                        <div className="SocialIcon">
+                            <a href="https://www.linkedin.com/company/investment-festival-itb/about/" target="_blank" rel="noopener noreferrer">
+                                <Image src={Linkedin} alt="LinkedIn"/>
+                            </a>
+                        </div>
                     </div>
                     <div className="flex Logos gap-4">
-                        <Image src={Image1} alt="logo-infest" width="105px" height="50px"/>
-                        <Image src={Image2} alt="logo-infest" width="50px" height="50px" style={{marginBottom:"-7px"}}/>
+                        <Image src={LogoInfest} alt="logo-infest" width="105px" height="50px"/>
+                        <Image src={LogoKSEP} alt="logo-infest" width="50px" height="50px" style={{marginBottom:"-7px"}}/>
                     </div>
                 </div>
                 <div className="FooterRight">
@@ -43,7 +50,7 @@ const Footer = () => {
                                 <div className="Whatsapp">
                                     <h5>WA</h5>
                                     <div className="ContactIcon">
-                                        <i className="fab fa-whatsapp fa-lg" />
+                                        <Image src={Whatsapp} alt="Whatsapp" />
                                     </div>
                                 </div>
                             </a>
@@ -51,7 +58,7 @@ const Footer = () => {
                                 <div className="Line">
                                     <h5>Line</h5>
                                     <div className="ContactIcon">
-                                        <i className="fab fa-line fa-lg" />
+                                        <Image src={Line} alt="Line" />
                                     </div>
                                 </div>
                             </a>
@@ -61,7 +68,7 @@ const Footer = () => {
                             <div className="Whatsapp">
                                 <h5>WA</h5>
                                 <div className="ContactIcon">
-                                    <i className="fab fa-whatsapp fa-lg" />
+                                    <Image src={Whatsapp} alt="Whatsapp" />
                                 </div>
                             </div>
                             </a>
@@ -69,7 +76,7 @@ const Footer = () => {
                             <div className="Line">
                                 <h5>Line</h5>
                                 <div className="ContactIcon">
-                                    <i className="fab fa-line fa-lg" />
+                                    <Image src={Line} alt="Line" />
                                 </div>
                             </div>
                             </a>
@@ -81,7 +88,7 @@ const Footer = () => {
                             <div className="Whatsapp">
                                 <h5>WA</h5>
                                 <div className="ContactIcon">
-                                    <i className="fab fa-whatsapp fa-lg" />
+                                    <Image src={Whatsapp} alt="Whatsapp" />
                                 </div>
                             </div>
                             </a>
@@ -89,7 +96,7 @@ const Footer = () => {
                             <div className="Line">
                                 <h5>Line</h5>
                                 <div className="ContactIcon">
-                                    <i className="fab fa-line fa-lg" />
+                                    <Image src={Line} alt="Line" />
                                 </div>
                             </div>
                             </a>
@@ -99,7 +106,7 @@ const Footer = () => {
                             <div className="Whatsapp">
                                 <h5>WA</h5>
                                 <div className="ContactIcon">
-                                    <i className="fab fa-whatsapp fa-lg" />
+                                    <Image src={Whatsapp} alt="Whatsapp" />
                                 </div>
                             </div>
                             </a>
@@ -107,7 +114,7 @@ const Footer = () => {
                             <div className="Line">
                                 <h5>Line</h5>
                                 <div className="ContactIcon">
-                                    <i className="fab fa-line fa-lg" />
+                                    <Image src={Line} alt="Line" />
                                 </div>
                             </div>
                             </a>
@@ -120,7 +127,7 @@ const Footer = () => {
                             <div className="Whatsapp">
                                 <h5>WA</h5>
                                 <div className="ContactIcon">
-                                    <i className="fab fa-whatsapp fa-lg" />
+                                    <Image src={Whatsapp} alt="Whatsapp" />
                                 </div>
                             </div>
                             </a>
@@ -128,7 +135,7 @@ const Footer = () => {
                             <div className="Line">
                                 <h5>Line</h5>
                                 <div className="ContactIcon">
-                                    <i className="fab fa-line fa-lg" />
+                                    <Image src={Line} alt="Line" />
                                 </div>
                             </div>
                             </a>
@@ -138,7 +145,7 @@ const Footer = () => {
                             <div className="Whatsapp">
                                 <h5>WA</h5>
                                 <div className="ContactIcon">
-                                    <i className="fab fa-whatsapp fa-lg" />
+                                    <Image src={Whatsapp} alt="Whatsapp" />
                                 </div>
                             </div>
                             </a>
@@ -146,7 +153,7 @@ const Footer = () => {
                             <div className="Line">
                                 <h5>Line</h5>
                                 <div className="ContactIcon">
-                                    <i className="fab fa-line fa-lg" />
+                                    <Image src={Line} alt="Line" />
                                 </div>
                             </div>
                             </a>
