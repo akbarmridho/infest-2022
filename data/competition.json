@@ -1,0 +1,172 @@
+{
+    "research": {
+        "banner": {
+            "title": "Equity Research Competition",
+            "content": "Kompetisi analisis emiten secara detail dan akurat",
+            "actions": [
+                {
+                    "name": "Registrasi",
+                    "href": "http://bit.ly/EquityResearchCompetition"
+                },
+                {
+                    "name": "Guidebook",
+                    "href": "http://bit.ly/GuidebookINFEST2022"
+                }
+            ]
+        },
+        "about": {
+            "title": "Tentang",
+            "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat"
+        },
+        "rewards": [
+            {
+                "position": 1,
+                "backgroundColor": "#FFD700",
+                "prize": "Rp5.000.000"
+            },
+            {
+                "position": 2,
+                "backgroundColor": "#DBD7CE",
+                "prize": "Rp3.000.000"
+            },
+            {
+                "position": 3,
+                "backgroundColor": "#F69312",
+                "prize": "Rp2.000.000"
+            }
+        ],
+        "pricing": [
+            {
+                "name": "Early Bird (1 Agustus - 15 Agustus 2022)",
+                "price": "Rp120.000"
+            },
+            {
+                "name": "Normal (16 Agustus - 31 Agustus 2022)",
+                "price": "Rp180.000"
+            }
+        ],
+        "timeline": [
+            {
+                "name": "Registrasi",
+                "date": "1-31 Agustus 2022"
+            },
+            {
+                "name": "Pengumpulan Paper",
+                "date": "2 Agustus - 1 September 2022"
+            },
+            {
+                "name": "Pengumpulan Finalis",
+                "date": "15 September 2022"
+            },
+            {
+                "name": "Final",
+                "date": "25 September 2022"
+            },
+            {
+                "name": "Pengumuman",
+                "date": "2 Oktober 2022"
+            }
+        ],
+        "qnas": [
+            {
+                "question": "Kapan lomba equity research membuka pendaftaran?",
+                "answer": "Pendaftaran dibuka mulai tanggal 1-31 Agustus 2022"
+            },
+            {
+                "question": "Kapan deadline pengumpulan paper?",
+                "answer": "1 September 2022"
+            },
+            {
+                "question": "Apa saja emiten yang akan dianalisis?",
+                "answer": "Peserta dipersilakan untuk memilih salah satu dari tiga emiten berikut: CPIN, ERAA, dan MYOR"
+            },
+            {
+                "question": "Berapa biaya pendaftaran equity research competition?",
+                "answer": "Pendaftaran early bird (1-15 Agustus 2022) seharga Rp125.000, sedangkan pendaftaran biasa (16-31 Agustus 2022) seharga Rp175.000"
+            },
+            {
+                "question": "Apakah seluruh peserta equity research competition akan mendapatkan sertifikat?",
+                "answer": "Ya, semua peserta akan mendapatkan sertifikat. Sertifikat akan dikirimkan melalui email ketua kelompok"
+            }
+        ]
+    },
+    "trading": {
+        "banner": {
+            "title": "Trading Competition",
+            "content": "Kompetisi untuk memperoleh keuntungan sebesar-besarnya menggunakan dana virtual",
+            "actions": [
+                {
+                    "name": "Registrasi",
+                    "href": "https://bit.ly/DaftarTradingCompetition"
+                },
+                {
+                    "name": "Guidebook",
+                    "href": "http://bit.ly/GuidebookINFEST2022"
+                }
+            ]
+        },
+        "about": {
+            "title": "Tentang",
+            "content": "Kompetisi tim yang beranggotakan 1 s.d. 3 orang. Peserta akan dibekali dana virtual yang harus digunakan untuk mendapatkan keuntungan yang sebesar-besarnya dengan analisis teknikal, bandarmologi, atau yang lainnya"
+        },
+        "rewards": [
+            {
+                "position": 1,
+                "backgroundColor": "#FFD700",
+                "prize": "Rp4.500.000"
+            },
+            {
+                "position": 2,
+                "backgroundColor": "#DBD7CE",
+                "prize": "Rp2.500.000"
+            },
+            {
+                "position": 3,
+                "backgroundColor": "#F69312",
+                "prize": "Rp1.500.000"
+            }
+        ],
+        "pricing": [
+            {
+                "name": "Early Bird (1 Agustus - 15 Agustus 2022)",
+                "price": "Rp100.000"
+            },
+            {
+                "name": "Normal (16 Agustus - 31 Agustus 2022)",
+                "price": "Rp150.000"
+            }
+        ],
+        "timeline": [
+            {
+                "name": "Registrasi",
+                "date": "1-31 Agustus 2022"
+            },
+            {
+                "name": "Perlombaan",
+                "date": "5-23 September 2022"
+            },
+            {
+                "name": "Pengumuman",
+                "date": "2 Oktober 2022"
+            }
+        ],
+        "qnas": [
+            {
+                "question": "Kapan lomba trading akan dilaksanakan?",
+                "answer": "Lomba trading dilaksanakan mulai tanggal 5 September hingga 23 September 2022 secara online"
+            },
+            {
+                "question": "Platform apa yang akan digunakan dalam lomba trading?",
+                "answer": "Stockbit"
+            },
+            {
+                "question": "Berapa biaya pendaftaran trading competition?",
+                "answer": "Pendaftaran early bird (1-15 Agustus 2022) seharga Rp100.000, sedangkan pendaftaran biasa (16-31 Agustus 2022) seharga Rp150.000"
+            },
+            {
+                "question": "Apakah seluruh peserta trading competition akan mendapatkan sertifikat?",
+                "answer": "Ya, semua peserta akan mendapatkan sertifikat. Sertifikat akan dikirimkan melalui email ketua kelompok"
+            }
+        ]
+    }
+}

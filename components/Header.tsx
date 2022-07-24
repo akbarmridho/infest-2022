@@ -36,10 +36,10 @@ const Header = () => {
                             <div className={`absolute right-0 z-50 rounded divide-y divide-gray-100 shadow bg-tgreen-200 ${dropdown ? '' : 'hidden'}`}>
                                 <ul className="py-1 text-sm text-white">
                                     <li className="block py-2 px-4 hover:bg-tgreen-300">
-                                        <Link href='/events/trading'>Trading Competition</Link>
+                                        <Link href='/competition/trading'>Trading Competition</Link>
                                     </li>
                                     <li className="block py-2 px-4 hover:bg-tgreen-300">
-                                        <Link href='/events/research'>Equity Research Competition</Link>
+                                        <Link href='/competition/research'>Equity Research Competition</Link>
                                     </li>
                                     <li className="block py-2 px-4 hover:bg-tgreen-300">
                                         <Link href='/events/workshop' >Workshop</Link>

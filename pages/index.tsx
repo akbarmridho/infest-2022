@@ -20,7 +20,7 @@ const Home = ({
     <>
       <Head>
         <title>INFEST 2022</title>
-        <meta name="description" content="Landing page INFEST 2022" />
+        <meta name="description" content="Landing page INFEST 2022. Investment Festival (INFEST) by KSEP ITB. Mata acara: equity research competition, trading competition, webinar, dan workshop" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

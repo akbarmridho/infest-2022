@@ -16,7 +16,7 @@
         {
             "title": "Equity Research Competition",
             "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat",
-            "href": "/events/competition/research"
+            "href": "/competition/research"
         },
         {
             "title": "Webinar",
@@ -68,7 +68,7 @@
         ],
         "Equity Research": [
             {
-                "question": "Kapan lomba equity research amembuka pendaftaran?",
+                "question": "Kapan lomba equity research membuka pendaftaran?",
                 "answer": "Pendaftaran dibuka mulai tanggal 1-31 Agustus 2022"
             },
             {
