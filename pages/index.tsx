@@ -51,7 +51,7 @@ const Home = ({
         <About title={about.title} content={about.content}/>
         <Theme title={theme.title} content={theme.content}/>
         <Teaser/>
-        <CardDeck />
+        <CardDeck events={events}/>
         <Timeline events={timeline}/>
         <FAQMultipleDeck items={qna}/>
         <Sponsor />
