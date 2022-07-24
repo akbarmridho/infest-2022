@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import BackToTop from "./BackToTop";
 import Footer from "./Footer";
 import Header from "./Header";
 
@@ -16,6 +17,7 @@ const Layout = ({children} : Props) => {
                     </div>
                 </main>
             <Footer/>
+            <BackToTop />
         </>
     )
 }
