@@ -18,17 +18,17 @@ const FAQMultipleDeck = ({items}: Props) => {
         <div className='flex justify-center'>
             <div className='w-full max-w-screen-md mx'>
                 <h2 className="h2 text-center text-gradient mb-8">FAQ</h2>
-                <div className="flex justify-center">
+                <div className="flex justify-center flex-wrap">
                     {
                         Object.keys(items).map((key, i) => {
                             return <FAQButton key={i} name={key} onClick={() => setActiveItems(key)} currentActive={activeItems}/>
                         })
                     }
                 </div>
-                <div className="mt-8">
+                <div className="mt-6">
                     {
                         items[activeItems].map((item, i) => {
-                            return <FAQ key={i} question={item.question} answer={item.answer} />
+                            return <FAQ key={`${i}-${activeItems}`} question={item.question} answer={item.answer} />
                         })
                     }
                 </div> 

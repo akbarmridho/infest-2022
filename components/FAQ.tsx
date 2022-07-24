@@ -14,17 +14,17 @@ const FAQ = ({question, answer}: FAQProps) => {
 
     return (
         <div className="m-4">
-            <div className={`w-full rounded-[16px] px-6 py-8 flex flex-row items-top ${isActive ? "bg-gradient" : "bg-white"} drop-shadow-lg`}>
-                <div className="flex-grow">
+            <div className={`w-full rounded-[16px] px-6 py-7 flex justify-between items-top ${isActive ? "bg-gradient" : "bg-white"} drop-shadow-lg`}>
+                <div className="">
                     <div>
-                        <h4 className="h3 font-tommy text-gray-800">
+                        <h4 className="text-xl font-tommy text-gray-800 text-left">
                             {question}
                         </h4>
                     </div>
                     {
                         isActive &&
                             <div className="mt-4">
-                                <p className="p text-gray-800">
+                                <p className="text-lg text-gray-800">
                                     {answer}
                                 </p>
                             </div>
@@ -32,7 +32,7 @@ const FAQ = ({question, answer}: FAQProps) => {
                 </div>
                 <div className='ml-8'>
                     <button 
-                        className="rounded-full float-right w-8 h-8 bg-[rgba(255,255,255,0.45)] font-bold text-gray-900"
+                        className="rounded-full float-right w-8 h-8 bg-[rgba(255,255,255,0.45)] font-bold text-gray-900 active:animate-spin"
                         dangerouslySetInnerHTML={{ __html: isActive ? '&#8211;' : '&#10005;'}}
                         onClick={handleClick}></button>
                 </div>

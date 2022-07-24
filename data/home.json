@@ -15,7 +15,7 @@
         },
         {
             "title": "Equity Research Competition",
-            "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat.",
+            "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat",
             "href": "/events/competition/research"
         },
         {
@@ -46,5 +46,99 @@
             "name": "Webinar",
             "date": "1-2 Oktober 2022"
         }
-    ]
+    ],
+    "qnas": {
+        "Trading": [
+            {
+                "question": "Kapan lomba trading akan dilaksanakan?",
+                "answer": "Lomba trading dilaksanakan mulai tanggal 5 September hingga 23 September 2022 secara online"
+            },
+            {
+                "question": "Platform apa yang akan digunakan dalam lomba trading?",
+                "answer": "Stockbit"
+            },
+            {
+                "question": "Berapa biaya pendaftaran trading competition?",
+                "answer": "Pendaftaran early bird (1-15 Agustus 2022) seharga Rp100.000, sedangkan pendaftaran biasa (16-31 Agustus 2022) seharga Rp150.000"
+            },
+            {
+                "question": "Apakah seluruh peserta trading competition akan mendapatkan sertifikat?",
+                "answer": "Ya, semua peserta akan mendapatkan sertifikat. Sertifikat akan dikirimkan melalui email ketua kelompok"
+            }
+        ],
+        "Equity Research": [
+            {
+                "question": "Kapan lomba equity research amembuka pendaftaran?",
+                "answer": "Pendaftaran dibuka mulai tanggal 1-31 Agustus 2022"
+            },
+            {
+                "question": "Kapan deadline pengumpulan paper?",
+                "answer": "1 September 2022"
+            },
+            {
+                "question": "Apa saja emiten yang akan dianalisis?",
+                "answer": "Peserta dipersilakan untuk memilih salah satu dari tiga emiten berikut: CPIN, ERAA, dan MYOR"
+            },
+            {
+                "question": "Berapa biaya pendaftaran equity research competition?",
+                "answer": "Pendaftaran early bird (1-15 Agustus 2022) seharga Rp125.000, sedangkan pendaftaran biasa (16-31 Agustus 2022) seharga Rp175.000"
+            },
+            {
+                "question": "Apakah seluruh peserta equity research competition akan mendapatkan sertifikat?",
+                "answer": "Ya, semua peserta akan mendapatkan sertifikat. Sertifikat akan dikirimkan melalui email ketua kelompok"
+            }
+        ],
+        "Webinar": [
+            {
+                "question": "Kapan pendaftarannya dibuka?",
+                "answer": "Tanggal 1 September sampai dengan 23 September 2022"
+            },
+            {
+                "question": "Acara INFEST 2022 akan dilaksanakan kapan?",
+                "answer": "1-2 Oktober, ya!"
+            },
+            {
+                "question": "Acaranya akan dilaksanakan offline atau online?",
+                "answer": "Acaranya ofline dan online, ya. Kegiatan offline akan dilaksanakan di Aula Barat ITB dan kegiatan online akan diberitahu lebih lanjut"
+            },
+            {
+                "question": "Acaranya apa saja?",
+                "answer": "Ada talkshow dan webinar dengan berbagai topik yang tentunya sangat bermanfaat bagi kita semua"
+            },
+            {
+                "question": "Berapa harga tiketnya?",
+                "answer": "Yang pasti lebih murah dari harga tiket Trans Studio"
+            },
+            {
+                "question": "Kalau hanya ikut satu mata acara, apakah bisa mendapatkan sertifikat?",
+                "answer": "Untuk mendapatkan sertifikat, kamu harus datang di tiga mata acara, ya"
+            }
+        ],
+        "Workshop": [
+            {
+                "question": "Kapan pendaftarannya dibuka?",
+                "answer": "Tanggal 1 September sampai dengan 23 September 2022"
+            },
+            {
+                "question": "Acara INFEST 2022 akan dilaksanakan kapan?",
+                "answer": "1-2 Oktober, ya!"
+            },
+            {
+                "question": "Acaranya akan dilaksanakan offline atau online?",
+                "answer": "Acaranya ofline dan online, ya. Kegiatan offline akan dilaksanakan di Aula Barat ITB dan kegiatan online akan diberitahu lebih lanjut"
+            },
+            {
+                "question": "Acaranya apa saja?",
+                "answer": "Ada talkshow dan webinar dengan berbagai topik yang tentunya sangat bermanfaat bagi kita semua"
+            },
+            {
+                "question": "Berapa harga tiketnya?",
+                "answer": "Yang pasti lebih murah dari harga tiket Trans Studio"
+            },
+            {
+                "question": "Kalau hanya ikut satu mata acara, apakah bisa mendapatkan sertifikat?",
+                "answer": "Untuk mendapatkan sertifikat, kamu harus datang di tiga mata acara, ya"
+            }
+        ]
+    }
 }

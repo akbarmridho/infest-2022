@@ -10,8 +10,8 @@ const TimelineItem = ({orientation, name, date} : Props) => {
             { orientation === 'left' && 
                 <>
                 <div className="h-[5px] bg-gradient-to-r from-tyellow-300 to-tyellow-100 w-full"></div>
-                <h4 className="font-tommy text-4xl absolute bottom-11 right-2">{name}</h4>
-                <p className="text-2xl absolute bottom-2 top-11 right-2">{date}</p>
+                <h4 className="font-tommy text-3xl absolute bottom-11 right-2">{name}</h4>
+                <p className="text-xl absolute bottom-2 top-11 right-2">{date}</p>
             </>}
         </div>
         <div className='h-20 w-20 relative'>
@@ -30,8 +30,8 @@ const TimelineItem = ({orientation, name, date} : Props) => {
         <div className="flex items-center relative text-gray-100">
             { orientation === 'right' && <>
                 <div className="h-[5px] w-full bg-gradient-to-l from-tyellow-300 to-tyellow-100"></div>
-                <h4 className="font-tommy text-4xl absolute bottom-11 left-2">{name}</h4>
-                <p className="text-2xl absolute bottom-2 top-11 left-2">{date}</p>
+                <h4 className="font-tommy text-3xl absolute bottom-11 left-2">{name}</h4>
+                <p className="text-xl absolute bottom-2 top-11 left-2">{date}</p>
             </>}
         </div>
     </>)

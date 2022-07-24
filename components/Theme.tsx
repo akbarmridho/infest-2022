@@ -8,12 +8,12 @@ interface Props {
 
 const Theme = ({title, content}: Props) => {
     return (
-        <div className='flex justify-center mx xl:gap-40 flex-col xl:flex-row'>
-            <div className="w-1/2 md:w-auto m-auto">
+        <div className='flex justify-center mx xl:gap-20 flex-col xl:flex-row items-center'>
+            <div className="w-[300px] mx-auto">
                 <Image src={Image1} alt="logo-circle"/>
             </div>
-            <div className="flex flex-col gap-10 xl:w-3/4 w-3/4 text-center m-auto xl:text-left xl:m-0">
-                <h2 className="h2 text-gradient mt-16">{ title }</h2>
+            <div className="flex flex-col gap-4 lg:gap-6 lg:w-3/4 w-full text-center xl:text-left xl:m-0 mx-auto mt-8 xl:mt-0">
+                <h2 className="h2 text-gradient">{ title }</h2>
                 <h3 className="h3 text-gray-100">{ content }</h3>
             </div>
         </div>

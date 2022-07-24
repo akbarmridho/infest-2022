@@ -9,34 +9,12 @@ import FAQMultipleDeck from '../components/FAQMultipleDeck'
 import Sponsor from '../components/Sponsor'
 import homeData from '../data/home.json'
 
-const qna = {
-  webinar: [
-    {
-        question: 'lorem ipsum dos color sit amet',
-        answer: 'this is some fucking answer loooong answer as;ldkjasdmsaoi asldjaslkdas asldkjashdkljas aslkjdas askljdhasljkd aslkjdhas'
-    },
-    {
-        question: 'lorem ipsum dos color sit amet',
-        answer: 'this is some fucking answer loooong answer as;ldkjasdmsaoi asldjaslkdas asldkjashdkljas aslkjdas askljdhasljkd aslkjdhas'
-    },
-    {
-        question: 'lorem ipsum dos color sit amet',
-        answer: 'this is some fucking answer loooong answer as;ldkjasdmsaoi asldjaslkdas asldkjashdkljas aslkjdas askljdhasljkd aslkjdhas'
-    }
-  ],
-  'Trading Competition': [
-    {
-      question: 'Anjaayyy qt',
-      answer: 'hehe btul'
-    }
-  ]
-}
-
 const Home = ({
   about,
   theme,
   events,
-  timeline
+  timeline,
+  qnas
 } : typeof homeData) => {
   return (
     <>
@@ -53,7 +31,7 @@ const Home = ({
         <Teaser/>
         <CardDeck events={events}/>
         <Timeline events={timeline}/>
-        <FAQMultipleDeck items={qna}/>
+        <FAQMultipleDeck items={qnas}/>
         <Sponsor />
       </div>
     </>
