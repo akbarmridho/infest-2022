@@ -1,0 +1,136 @@
+{
+    "webinar": {
+        "banner": {
+            "title": "Webinar",
+            "content": "Kompetisi analisis emiten secara detail dan akurat",
+            "actions": [
+                {
+                    "name": "Registrasi",
+                    "href": "http://bit.ly/EquityResearchCompetition"
+                }
+            ]
+        },
+        "about": {
+            "title": "Tentang",
+            "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat"
+        },
+        "speakers": [],
+        "benefits": [],
+        "pricing": [
+            {
+                "name": "Early Bird (1 Agustus - 15 Agustus 2022)",
+                "price": "Rp120.000"
+            },
+            {
+                "name": "Normal (16 Agustus - 31 Agustus 2022)",
+                "price": "Rp180.000"
+            }
+        ],
+        "timeline": [
+            {
+                "name": "Registrasi",
+                "date": "1-23 September 2022"
+            },
+            {
+                "name": "Acara Utama",
+                "date": "1-2 Oktober"
+            }
+        ],
+        "qnas": [
+            {
+                "question": "Kapan pendaftarannya dibuka?",
+                "answer": "Tanggal 1 September sampai dengan 23 September 2022"
+            },
+            {
+                "question": "Acara INFEST 2022 akan dilaksanakan kapan?",
+                "answer": "1-2 Oktober, ya!"
+            },
+            {
+                "question": "Acaranya akan dilaksanakan offline atau online?",
+                "answer": "Acaranya ofline dan online, ya. Kegiatan offline akan dilaksanakan di Aula Barat ITB dan kegiatan online akan diberitahu lebih lanjut"
+            },
+            {
+                "question": "Acaranya apa saja?",
+                "answer": "Ada talkshow dan webinar dengan berbagai topik yang tentunya sangat bermanfaat bagi kita semua"
+            },
+            {
+                "question": "Berapa harga tiketnya?",
+                "answer": "Yang pasti lebih murah dari harga tiket Trans Studio"
+            },
+            {
+                "question": "Kalau hanya ikut satu mata acara, apakah bisa mendapatkan sertifikat?",
+                "answer": "Untuk mendapatkan sertifikat, kamu harus datang di tiga mata acara, ya"
+            }
+        ]
+    },
+    "workshop": {
+        "banner": {
+            "title": "Workshop",
+            "content": "Kompetisi analisis emiten secara detail dan akurat",
+            "actions": []
+        },
+        "about": {
+            "title": "Tentang",
+            "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat"
+        },
+        "speakers": [
+            {
+                "name": "John Doe",
+                "topic": "Is NFT in a downtren right now?",
+                "imageUrl": "speakers/speaker1.jpg"
+            },
+            {
+                "name": "John Doe",
+                "topic": "Is NFT in a downtren right now?",
+                "imageUrl": "speakers/speaker2.jpg"
+            }
+        ],
+        "benefits": [],
+        "pricing": [
+            {
+                "name": "Early Bird (1 Agustus - 15 Agustus 2022)",
+                "price": "Rp120.000"
+            },
+            {
+                "name": "Normal (16 Agustus - 31 Agustus 2022)",
+                "price": "Rp180.000"
+            }
+        ],
+        "timeline": [
+            {
+                "name": "Registrasi",
+                "date": "1-23 September 2022"
+            },
+            {
+                "name": "Acara Utama",
+                "date": "1-2 Oktober"
+            }
+        ],
+        "qnas": [
+            {
+                "question": "Kapan pendaftarannya dibuka?",
+                "answer": "Tanggal 1 September sampai dengan 23 September 2022"
+            },
+            {
+                "question": "Acara INFEST 2022 akan dilaksanakan kapan?",
+                "answer": "1-2 Oktober, ya!"
+            },
+            {
+                "question": "Acaranya akan dilaksanakan offline atau online?",
+                "answer": "Acaranya ofline dan online, ya. Kegiatan offline akan dilaksanakan di Aula Barat ITB dan kegiatan online akan diberitahu lebih lanjut"
+            },
+            {
+                "question": "Acaranya apa saja?",
+                "answer": "Ada talkshow dan webinar dengan berbagai topik yang tentunya sangat bermanfaat bagi kita semua"
+            },
+            {
+                "question": "Berapa harga tiketnya?",
+                "answer": "Yang pasti lebih murah dari harga tiket Trans Studio"
+            },
+            {
+                "question": "Kalau hanya ikut satu mata acara, apakah bisa mendapatkan sertifikat?",
+                "answer": "Untuk mendapatkan sertifikat, kamu harus datang di tiga mata acara, ya"
+            }
+        ]
+    }
+}

@@ -21,12 +21,12 @@
         {
             "title": "Webinar",
             "content": "Seminar online mengenai investasi dan pasar modal oleh pembicara ternama dengan topik-topik yang menarik",
-            "href": "/events/webinar"
+            "href": "/training/webinar"
         },
         {
             "title": "Workshop",
             "content": "Workshop online mengenai investasi dan pasar modal yang akan dibawakan oleh pembicara ternama dan berpengalaman di bidangnya",
-            "href": "/events/workshop"
+            "href": "/training/workshop"
         }
     ],
     "timeline": [

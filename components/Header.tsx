@@ -45,12 +45,12 @@ const Header = () => {
                                             Equity Research Competition
                                         </li>
                                     </Link>
-                                    <Link href='/events/workshop' >
+                                    <Link href='/training/workshop' >
                                         <li className="block py-2 px-4 hover:bg-tgreen-300">
                                             Workshop
                                         </li>
                                     </Link>
-                                    <Link href='/events/webinar' >
+                                    <Link href='/training/webinar' >
                                         <li className="block py-2 px-4 hover:bg-tgreen-300">
                                             Webinar
                                         </li>
