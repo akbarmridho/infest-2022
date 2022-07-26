@@ -10,7 +10,7 @@ const TimelineItem = ({orientation, name, date} : Props) => {
             { orientation === 'left' && 
                 <>
                 <div className="h-[5px] bg-gradient-to-r from-tyellow-300 to-tyellow-100 w-full"></div>
-                <h4 className="font-tommy text-3xl absolute bottom-11 right-2">{name}</h4>
+                <h4 className="font-tommy text-3xl absolute bottom-11 right-2 text-right">{name}</h4>
                 <p className="text-xl absolute bottom-2 top-11 right-2">{date}</p>
             </>}
         </div>
@@ -29,7 +29,7 @@ const TimelineItem = ({orientation, name, date} : Props) => {
         </div>
         <div className={`items-center relative text-gray-100 ${orientation === 'left' ? 'flex sm:hidden' : 'flex'}`}>
                 <div className="h-[5px] w-full bg-gradient-to-l from-tyellow-300 to-tyellow-100"></div>
-                <h4 className="font-tommy text-3xl absolute bottom-11 left-2">{name}</h4>
+                <h4 className="font-tommy text-3xl absolute bottom-11 left-2 text-left">{name}</h4>
                 <p className="text-xl absolute bottom-2 top-11 left-2">{date}</p>
         </div>
     </>)

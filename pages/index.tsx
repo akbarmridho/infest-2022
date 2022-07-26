@@ -32,7 +32,6 @@ const Home = ({
         <CardDeck events={events}/>
         <Timeline events={timeline}/>
         <FAQMultipleDeck items={qnas}/>
-        <Sponsor />
       </div>
     </>
   )

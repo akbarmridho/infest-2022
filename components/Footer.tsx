@@ -6,6 +6,9 @@ import Line from "../public/line.svg"
 import Whatsapp from "../public/whatsapp.svg"
 
 import Image from "next/image"
+
+// tambahkan kontak
+
 const Footer = () => {
     return (
         <>
@@ -18,7 +21,7 @@ const Footer = () => {
                     <div className="FooterSubtitle">
                         <h2>by KSEP ITB</h2>
                     </div>
-                    <div className="FooterBody lexend-deca">
+                    <div className="FooterBody">
                         <h3>The Biggest Investment Festival held by KSEP ITB for Indonesia</h3>
                     </div>
                     <div className="SocialMedia">
@@ -43,44 +46,6 @@ const Footer = () => {
                         <h1 style={{ width: "100%", marginBottom: '28px' }}>Informasi Kontak</h1>
                     </div>
                     <div className="FooterContact">
-                        <div className="FooterEvent">
-                            <h4>Webinar</h4>
-                            <h5 className="ContactName">Nama</h5>
-                            <a href="" target="_blank" rel="noopener noreferrer">
-                                <div className="Whatsapp">
-                                    <h5>WA</h5>
-                                    <div className="ContactIcon">
-                                        <Image src={Whatsapp} alt="Whatsapp" />
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="" target="_blank" rel="noopener noreferrer">
-                                <div className="Line">
-                                    <h5>Line</h5>
-                                    <div className="ContactIcon">
-                                        <Image src={Line} alt="Line" />
-                                    </div>
-                                </div>
-                            </a>
-
-                            <h5 className="ContactName">Nama</h5>
-                            <a href="" target="_blank" rel="noopener noreferrer">
-                            <div className="Whatsapp">
-                                <h5>WA</h5>
-                                <div className="ContactIcon">
-                                    <Image src={Whatsapp} alt="Whatsapp" />
-                                </div>
-                            </div>
-                            </a>
-                            <a href="" target="_blank" rel="noopener noreferrer">
-                            <div className="Line">
-                                <h5>Line</h5>
-                                <div className="ContactIcon">
-                                    <Image src={Line} alt="Line" />
-                                </div>
-                            </div>
-                            </a>
-                        </div>
                         <div className="FooterEvent">
                             <h4>Workshop</h4>
                             <h5 className="ContactName">Nama</h5>

@@ -1,11 +1,11 @@
 {
     "about": {
         "title": "Apa itu INFEST?",
-        "content": "Investment Festival (INFEST) adalah acara tahunan yang diselenggarakan oleh Kelompok Studi Ekonomi Pasar Modal (KSEP) ITB yang berupa seminar mengenai investasi dan pasar modal untuk mengajak masyarakat Indonesia berinvestasi"
+        "content": "Investment Festival (INFEST) adalah acara tahunan yang diselenggarakan oleh Kelompok Studi Ekonomi Pasar Modal (KSEP) ITB yang berupa seminar, talkshow, lomba trading, dan lomba riset ekuitas. Acara ini akan diselenggarakan secara bauran dengan seminar dan talkshow sebagai acara utamanya. Secara keseluruhan, mata acara INFEST 2022 akan merangkup dasar dan pola pikir investasi, gambaran ekonomi dan pasar modal, strategi berinvestasi, serta potensi investasi pasca krisis"
     },
     "theme": {
-        "title": "Rise Up and Invest",
-        "content": "INFEST 2021 mengusung tema \"Rise Up and Invest\", yaitu suatu ajakan kepada masyarakat Indonesia untuk bangkit dari kondisi ekonomi yang terpuruk dengan cara berinvestasi"
+        "title": "Investing: What Now?",
+        "content": "INFEST 2022 mengangkat tema \"Investing: What Now?\" yang dilatarbelakangi oleh peningkatan jumlah investor secara eksponensial pada tahun 2021. Sebagian besar dari mereka menginvestasikan uangnya menjelang bear market. Tahun ini, investor baru akan lebih sulit meraup keuntungan dengan kondisi pasar yang bergejolak. Oleh karena itu, INFEST 2022 akan memberi panduan dalam menghadapi kondisi pasar yang berbeda dibandingkan tahun-tahun sebelumnya"
     },
     "events": [
         {
@@ -19,14 +19,9 @@
             "href": "/competition/research"
         },
         {
-            "title": "Webinar",
-            "content": "Seminar online mengenai investasi dan pasar modal oleh pembicara ternama dengan topik-topik yang menarik",
-            "href": "/training/webinar"
-        },
-        {
-            "title": "Workshop",
-            "content": "Workshop online mengenai investasi dan pasar modal yang akan dibawakan oleh pembicara ternama dan berpengalaman di bidangnya",
-            "href": "/training/workshop"
+            "title": "Main Event",
+            "content": "Main event INFEST 2022 merupakan sebuah kegiatan seminar dan talkshow yang dilaksanakan secara bauran selama dua hari. Per harinya, terdapat tiga mata acara dengan tema yang berbeda",
+            "href": "/main-event"
         }
     ],
     "timeline": [
@@ -43,7 +38,7 @@
             "date": "5 September - 23 September 2022"
         },
         {
-            "name": "Webinar",
+            "name": "Main Event",
             "date": "1-2 Oktober 2022"
         }
     ],
@@ -88,33 +83,7 @@
                 "answer": "Ya, semua peserta akan mendapatkan sertifikat. Sertifikat akan dikirimkan melalui email ketua kelompok"
             }
         ],
-        "Webinar": [
-            {
-                "question": "Kapan pendaftarannya dibuka?",
-                "answer": "Tanggal 1 September sampai dengan 23 September 2022"
-            },
-            {
-                "question": "Acara INFEST 2022 akan dilaksanakan kapan?",
-                "answer": "1-2 Oktober, ya!"
-            },
-            {
-                "question": "Acaranya akan dilaksanakan offline atau online?",
-                "answer": "Acaranya ofline dan online, ya. Kegiatan offline akan dilaksanakan di Aula Barat ITB dan kegiatan online akan diberitahu lebih lanjut"
-            },
-            {
-                "question": "Acaranya apa saja?",
-                "answer": "Ada talkshow dan webinar dengan berbagai topik yang tentunya sangat bermanfaat bagi kita semua"
-            },
-            {
-                "question": "Berapa harga tiketnya?",
-                "answer": "Yang pasti lebih murah dari harga tiket Trans Studio"
-            },
-            {
-                "question": "Kalau hanya ikut satu mata acara, apakah bisa mendapatkan sertifikat?",
-                "answer": "Untuk mendapatkan sertifikat, kamu harus datang di tiga mata acara, ya"
-            }
-        ],
-        "Workshop": [
+        "Main Event": [
             {
                 "question": "Kapan pendaftarannya dibuka?",
                 "answer": "Tanggal 1 September sampai dengan 23 September 2022"

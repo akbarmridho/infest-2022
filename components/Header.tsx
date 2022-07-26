@@ -36,23 +36,18 @@ const Header = () => {
                             <div className={`absolute right-0 z-50 rounded divide-y divide-gray-100 shadow bg-tgreen-200 ${dropdown ? '' : 'hidden'}`}>
                                 <ul className="py-1 text-sm text-white">
                                     <Link href='/competition/trading'>
-                                        <li className="block py-2 px-4 hover:bg-tgreen-300">
+                                        <li className="block py-2 px-4 hover:bg-tgreen-300 hover:cursor-pointer">
                                             Trading Competition
                                         </li>
                                     </Link>
                                     <Link href='/competition/research'>
-                                        <li className="block py-2 px-4 hover:bg-tgreen-300">
+                                        <li className="block py-2 px-4 hover:bg-tgreen-300 hover:cursor-pointer">
                                             Equity Research Competition
                                         </li>
                                     </Link>
-                                    <Link href='/training/workshop' >
-                                        <li className="block py-2 px-4 hover:bg-tgreen-300">
-                                            Workshop
-                                        </li>
-                                    </Link>
-                                    <Link href='/training/webinar' >
-                                        <li className="block py-2 px-4 hover:bg-tgreen-300">
-                                            Webinar
+                                    <Link href='/main-event' >
+                                        <li className="block py-2 px-4 hover:bg-tgreen-300 hover:cursor-pointer">
+                                            Main Event
                                         </li>
                                     </Link>
                                 </ul>

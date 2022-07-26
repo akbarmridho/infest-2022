@@ -3,6 +3,10 @@ interface Props {
     content: string
 }
 
+// About buat array. Jika hanya satu elemen, tampilkan seperti biasa
+// Bila punya banyak, tampilkan tombol pada kiri kanan tengah agar temanya bisa berganti-ganti
+// pakai animasi!
+
 const About = ({title, content} : Props) => {
     return (
         <div className='flex justify-center'>

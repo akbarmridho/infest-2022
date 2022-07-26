@@ -4,6 +4,8 @@ interface Props {
     speakers: Omit<SpeakerProps, 'pos'>[]
 }
 
+// Todo: tombol seperti pada FAQMultibleDeck untuk menampilkan pembicara pada day yang berbeda
+
 
 const SpeakerDeck = ({ speakers }: Props) => {
     return (
