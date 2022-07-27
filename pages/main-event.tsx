@@ -11,12 +11,15 @@ import mainEventData from '../data/mainEvent.json'
 export const getStaticProps : GetStaticProps = () => {
       return {
           props: {
-              ...mainEventData
+              ...mainEventData,
+              hidden: Boolean(process.env.HIDE_MAIN_EVENT)
           }
       }
 }
 
-// tampilkan event banner saja pada production
+interface Props {
+  hidden: boolean
+}
 
 const MainEvent = ({
     banner,
@@ -25,8 +28,9 @@ const MainEvent = ({
     benefits,
     pricing,
     timeline,
-    qnas
-} : typeof mainEventData) => {
+    qnas,
+    hidden
+} : (typeof mainEventData) & Props) => {
   return (
     <>
       <Head>
@@ -37,13 +41,19 @@ const MainEvent = ({
 
       <div>
         <EventBanner title={banner.title} content={banner.content} actions={banner.actions}/>
-        <About title={about.title} content={about.content}/>
-        <SpeakerDeck speakers={speakers} />
-        <Pricing title='Biaya' content={pricing}/>
-        <Timeline events={timeline}/>
-        <FAQSingleDeck items={qnas} />
         {
-          banner.actions.length > 0 && <EventBanner title={`Tertarik dengan ${banner.title}?`} content='' actions={banner.actions} titleSize='h2'/>
+          hidden ? ''
+            :
+            <>
+            <About title={about.title} content={about.content}/>
+            <SpeakerDeck speakers={speakers} />
+            <Pricing title='Biaya' content={pricing}/>
+            <Timeline events={timeline}/>
+            <FAQSingleDeck items={qnas} />
+            {
+              banner.actions.length > 0 && <EventBanner title={`Tertarik dengan ${banner.title}?`} content='' actions={banner.actions} titleSize='h2'/>
+            }
+            </>
         }
       </div>
     </>
