@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Competition",
+        "contacts": [
+            {
+                "name": "Favian Gerard",
+                "whatsapp": "628112139998",
+                "line": "faviangerard27"
+            },
+            {
+                "name": "Revio Seviano Sasmito",
+                "whatsapp": "6289603077000",
+                "line": "revio.2021_15"
+            }
+        ]
+    },
+    {
+        "title": "Main Event",
+        "contacts": [
+            {
+                "name": "Raynard Tanadi",
+                "whatsapp": "6281906100919",
+                "line": "sebastianraynardtan"
+            },
+            {
+                "name": "Nathania Calista Djunaedi",
+                "whatsapp": "6281211292255",
+                "line": "nathania.c.dj"
+            }
+        ]
+    }
+]

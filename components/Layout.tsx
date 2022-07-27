@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import BackToTop from "./BackToTop";
 import Footer from "./Footer";
 import Header from "./Header";
+import eventContacts from '../data/contacts.json'
 
 interface Props {
     children: ReactNode
@@ -16,7 +17,7 @@ const Layout = ({children} : Props) => {
                         {children}
                     </div>
                 </main>
-            <Footer/>
+            <Footer eventContacts={eventContacts}/>
             <BackToTop />
         </>
     )

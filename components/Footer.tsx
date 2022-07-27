@@ -2,14 +2,15 @@ import LogoInfest from "../public/logo-mini.png"
 import LogoKSEP from "../public/ksep-logo.webp"
 import Instagram from "../public/instagram.svg"
 import Linkedin from "../public/linkedin.svg"
-import Line from "../public/line.svg"
-import Whatsapp from "../public/whatsapp.svg"
 
 import Image from "next/image"
+import FooterContact, { ContactProps } from "./FooterContact"
 
-// tambahkan kontak
+interface ContactsProps {
+    eventContacts: ContactProps[]
+}
 
-const Footer = () => {
+const Footer = ({ eventContacts } : ContactsProps) => {
     return (
         <>
         <div className="bg-tgreen-300 h-80 FooterContainer">
@@ -46,84 +47,11 @@ const Footer = () => {
                         <h1 style={{ width: "100%", marginBottom: '28px' }}>Informasi Kontak</h1>
                     </div>
                     <div className="FooterContact">
-                        <div className="FooterEvent">
-                            <h4>Workshop</h4>
-                            <h5 className="ContactName">Nama</h5>
-                            <a href="" target="_blank" rel="noopener noreferrer">
-                            <div className="Whatsapp">
-                                <h5>WA</h5>
-                                <div className="ContactIcon">
-                                    <Image src={Whatsapp} alt="Whatsapp" />
-                                </div>
-                            </div>
-                            </a>
-                            <a href="" target="_blank" rel="noopener noreferrer">
-                            <div className="Line">
-                                <h5>Line</h5>
-                                <div className="ContactIcon">
-                                    <Image src={Line} alt="Line" />
-                                </div>
-                            </div>
-                            </a>
-
-                            <h5 className="ContactName">Nama</h5>
-                            <a href="" target="_blank" rel="noopener noreferrer">
-                            <div className="Whatsapp">
-                                <h5>WA</h5>
-                                <div className="ContactIcon">
-                                    <Image src={Whatsapp} alt="Whatsapp" />
-                                </div>
-                            </div>
-                            </a>
-                            <a href="" target="_blank" rel="noopener noreferrer">
-                            <div className="Line">
-                                <h5>Line</h5>
-                                <div className="ContactIcon">
-                                    <Image src={Line} alt="Line" />
-                                </div>
-                            </div>
-                            </a>
-
-                        </div>
-                        <div className="FooterEvent">
-                            <h4 style={{ textOverflow: 'wrap' }}>Trading Competition</h4>
-                            <h5 className="ContactName">Nama</h5>
-                            <a href="" target="_blank" rel="noopener noreferrer">
-                            <div className="Whatsapp">
-                                <h5>WA</h5>
-                                <div className="ContactIcon">
-                                    <Image src={Whatsapp} alt="Whatsapp" />
-                                </div>
-                            </div>
-                            </a>
-                            <a href="" target="_blank" rel="noopener noreferrer">
-                            <div className="Line">
-                                <h5>Line</h5>
-                                <div className="ContactIcon">
-                                    <Image src={Line} alt="Line" />
-                                </div>
-                            </div>
-                            </a>
-
-                            <h5 className="ContactName">Nama</h5>
-                            <a href="" target="_blank" rel="noopener noreferrer">
-                            <div className="Whatsapp">
-                                <h5>WA</h5>
-                                <div className="ContactIcon">
-                                    <Image src={Whatsapp} alt="Whatsapp" />
-                                </div>
-                            </div>
-                            </a>
-                            <a href="" target="_blank" rel="noopener noreferrer">
-                            <div className="Line">
-                                <h5>Line</h5>
-                                <div className="ContactIcon">
-                                    <Image src={Line} alt="Line" />
-                                </div>
-                            </div>
-                            </a>
-
-                        </div>
+                        {
+                            eventContacts.map((event, i) => {
+                                return <FooterContact title={event.title} contacts={event.contacts} key={i}/>
+                            })
+                        }
                     </div>
                 </div>
             </div>

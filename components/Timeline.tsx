@@ -26,7 +26,7 @@ const Timeline = ({ events } : Props) => {
                             )
                         })
                     }
-                    <TimelineDivider />
+                    <TimelineDivider key="divider-last" />
                 </div>
             </div> 
         </div>
