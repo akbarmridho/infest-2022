@@ -17,7 +17,7 @@ const FAQ = ({question, answer}: FAQProps) => {
             <div className={`w-full rounded-[16px] px-6 py-7 flex justify-between items-top ${isActive ? "bg-gradient" : "bg-white"} drop-shadow-lg`}>
                 <div className="">
                     <div>
-                        <h4 className="text-xl font-tommy text-gray-800 text-left" onClick={handleClick}>
+                        <h4 className="text-xl font-tommy text-gray-800 text-left hover:cursor-pointer" onClick={handleClick}>
                             {question}
                         </h4>
                     </div>

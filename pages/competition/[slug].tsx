@@ -42,7 +42,6 @@ const Competition = ({
       <Head>
         <title>{ `${banner.title} - INFEST 2022` }</title>
         <meta name="description" content="Page competition INFEST 2022. Investment Festival (INFEST) by KSEP ITB. Mata lomba: equity research competition dan trading competition" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div>

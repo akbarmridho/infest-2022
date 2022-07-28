@@ -36,7 +36,6 @@ const MainEvent = ({
       <Head>
         <title>{ `${banner.title} - INFEST 2022` }</title>
         <meta name="description" content="Page main event INFEST 2022. Investment Festival (INFEST) by KSEP ITB. Acara berupa talkshow yang akan diselenggarakan selama dua hari" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div>
