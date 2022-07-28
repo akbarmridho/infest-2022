@@ -1,5 +1,5 @@
 import LogoInfest from "../public/logo-mini.png"
-import LogoKSEP from "../public/ksep-logo.webp"
+import LogoKSEP from "../public/ksep-logo.png"
 import Instagram from "../public/instagram.svg"
 import Linkedin from "../public/linkedin.svg"
 
