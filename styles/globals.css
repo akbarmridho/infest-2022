@@ -63,3 +63,5 @@ h1 {
 .text-gradient {
   @apply text-transparent bg-clip-text bg-gradient-to-b from-tyellow-300 to-tyellow-100
 }
+
+@import 'footer.css'

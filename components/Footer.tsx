@@ -37,7 +37,7 @@ const Footer = ({ eventContacts } : ContactsProps) => {
                             </a>
                         </div>
                     </div>
-                    <div className="flex Logos gap-4">
+                    <div className="flex gap-4 mt-12 justify-center">
                         <Image src={LogoInfest} alt="logo-infest" width="105px" height="50px"/>
                         <Image src={LogoKSEP} alt="logo-infest" width="50px" height="50px" style={{marginBottom:"-7px"}}/>
                     </div>

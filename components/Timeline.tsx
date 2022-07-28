@@ -1,3 +1,4 @@
+import React from "react";
 import TimelineDivider from "./TimelineDivider";
 import TimelineItem from "./TimelineItem";
 
@@ -17,14 +18,16 @@ const Timeline = ({ events } : Props) => {
                 <h2 className="h2 text-center text-gradient">Timeline</h2>
                 <div className="grid grid-cols-[80px_260px] sm:grid-cols-[260px_80px_260px] mt-4">
                     {
-                        events.map((event, i) => {
-                            return (
-                                <>
-                                    <TimelineDivider key={`${i}-divider`}/>
-                                    <TimelineItem orientation={i % 2 !== 0 ? 'left' : 'right'} key={i} name={event.name} date={event.date}/>
-                                </>
-                            )
-                        })
+                        React.Children.toArray(
+                            events.map((event, i) => {
+                                return (
+                                    <>
+                                        <TimelineDivider/>
+                                        <TimelineItem orientation={i % 2 !== 0 ? 'left' : 'right'} name={event.name} date={event.date}/>
+                                    </>
+                                )
+                            })
+                        )
                     }
                     <TimelineDivider key="divider-last" />
                 </div>

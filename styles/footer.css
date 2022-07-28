@@ -35,21 +35,12 @@
 
 .FooterContainer h4 {
     font-family: sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    height: 23px;
     color: #F1F4F8;
     margin-bottom: 16px;
 }
 
 .FooterContainer h5 {
     font-family: sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 22px;
     height: 24px;
     color: #F1F4F8;
 }
@@ -98,11 +89,6 @@
     margin-right: 16px;
     color: white;
     width: 2rem;
-}
-
-.Logos {
-    padding-top: 99px;
-    margin-right: 20px;
 }
 
 .Whatsapp {
@@ -186,11 +172,6 @@ a {
         font-size: 10px;
     }
 
-    .Logos {
-        margin: 0;
-        display: none;
-    }
-
     .SocialMedia {
         justify-content: center;
         margin-bottom: 40px;
@@ -236,10 +217,6 @@ a {
     .Whatsapp, .Line {
         text-align: left;
         justify-content: flex-start;
-    }
-
-    h5 {
-        font-size: 10px;
     }
 
     .FooterTitleRight {

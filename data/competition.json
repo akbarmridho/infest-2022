@@ -47,23 +47,27 @@
         ],
         "timeline": [
             {
-                "name": "Registrasi",
-                "date": "1-31 Agustus 2022"
+                "name": "Registrasi (Early Bird)",
+                "date": "1-15 Agustus 2022"
             },
             {
-                "name": "Pengumpulan Paper",
-                "date": "2 Agustus - 1 September 2022"
+                "name": "Registrasi (Normal)",
+                "date": "16-31 Agustus 2022"
             },
             {
-                "name": "Pengumpulan Finalis",
+                "name": "Batas Pengumpulan Paper",
+                "date": "1 September 2022"
+            },
+            {
+                "name": "Pengumuman Finalis",
                 "date": "15 September 2022"
             },
             {
-                "name": "Final",
+                "name": "Tahap Final",
                 "date": "25 September 2022"
             },
             {
-                "name": "Pengumuman",
+                "name": "Pengumuman Pemenang",
                 "date": "2 Oktober 2022"
             }
         ],
@@ -138,15 +142,19 @@
         ],
         "timeline": [
             {
-                "name": "Registrasi",
-                "date": "1-31 Agustus 2022"
+                "name": "Registrasi (Early Bird)",
+                "date": "1-15 Agustus 2022"
+            },
+            {
+                "name": "Registrasi (Normal)",
+                "date": "16-31 Agustus 2022"
             },
             {
                 "name": "Perlombaan",
                 "date": "5-23 September 2022"
             },
             {
-                "name": "Pengumuman",
+                "name": "Pengumuman Pemenang",
                 "date": "2 Oktober 2022"
             }
         ],
