@@ -19,9 +19,7 @@ module.exports = {
         }
       },
       backgroundImage: {
-        'main': "url('/background.svg')",
-        'main-50': "url('/background-50.jpg')",
-        'main-75': "url('/background-75.jpg')"
+        'main': "url('/background-65.jpg')"
       },
       fontFamily: {
         tommy: ["tommy-medium", "sans-serif"],
