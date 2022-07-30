@@ -22,7 +22,7 @@ const Header = () => {
                         </Link>
                     </div>
                     <div className='mr-8 flex text-gray-100'>
-                        <div className='mr-8 text-gray-100 text-lg hover:text-gray-300'>
+                        <div className='mr-8 text-gray-100 text-lg hover:text-gray-300 hover:cursor-pointer'>
                             <Link href='/' ><p>Beranda</p></Link>
                         </div>
                         <div className='relative' onMouseEnter={toggleOn} onMouseLeave={toggleOff}>

@@ -2,7 +2,7 @@
     "research": {
         "banner": {
             "title": "Equity Research Competition",
-            "content": "Kompetisi analisis emiten secara detail dan akurat",
+            "content": "Kompetisi yang bertujuan melatih peserta dalam menganalisis suatu emiten yang ditentukan panitia secara detail dan akurat",
             "actions": [
                 {
                     "name": "Registrasi",
@@ -97,7 +97,7 @@
     "trading": {
         "banner": {
             "title": "Trading Competition",
-            "content": "Kompetisi untuk memperoleh keuntungan sebesar-besarnya menggunakan dana virtual",
+            "content": "Kompetisi untuk memperoleh keuntungan sebesar-besarnya menggunakan dana virtual pada sebuah trading platform dalam jangka waktu 3 minggu",
             "actions": [
                 {
                     "name": "Registrasi",
@@ -165,7 +165,7 @@
             },
             {
                 "question": "Platform apa yang akan digunakan dalam lomba trading?",
-                "answer": "Stockbit"
+                "answer": "Platform trading akan diumumkan lebih lanjut"
             },
             {
                 "question": "Berapa biaya pendaftaran trading competition?",

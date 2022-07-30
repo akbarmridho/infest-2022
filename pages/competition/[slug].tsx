@@ -51,6 +51,7 @@ const Competition = ({
         <Pricing title='Biaya' content={pricing}/>
         <Timeline events={timeline}/>
         <FAQSingleDeck items={qnas} />
+        <EventBanner title={`Tertarik dengan ${banner.title}?`} content='' actions={[banner.actions[0]]} titleSize='h2'/>
       </div>
     </>
   )
