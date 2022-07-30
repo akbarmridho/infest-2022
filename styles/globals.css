@@ -15,6 +15,7 @@
 html,
 body {
   overflow-x: hidden;
+  @apply scroll-smooth;
 }
 
 ::-webkit-scrollbar {
