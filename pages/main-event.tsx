@@ -12,7 +12,7 @@ export const getStaticProps : GetStaticProps = () => {
       return {
           props: {
               ...mainEventData,
-              hidden: Boolean(process.env.HIDE_MAIN_EVENT)
+              hidden: Boolean(process.env.NEXT_PUBLIC_HIDE_MAIN_EVENT)
           }
       }
 }

@@ -14,7 +14,7 @@ const Theme = ({title, content}: Props) => {
             </div>
             <div className="flex flex-col gap-4 lg:gap-6 lg:w-3/4 w-full text-center xl:text-left xl:m-0 mx-auto mt-8 xl:mt-0">
                 <h2 className="h2 text-gradient">{ title }</h2>
-                <h3 className="h3 text-gray-100 text-justify">{ content }</h3>
+                <p className="h3 text-gray-100 text-justify">{ content }</p>
             </div>
         </div>
     )

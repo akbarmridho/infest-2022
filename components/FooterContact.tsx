@@ -23,18 +23,18 @@ const FooterContact = ({ title, contacts } : ContactProps) => {
                             <h5 className="ContactName font-semibold">{contact.name}</h5>
                             <a href={`https://wa.me/${contact.whatsapp}`} target="_blank" rel="noopener noreferrer">
                             <div className="Whatsapp">
-                                <h5>{contact.whatsapp}</h5>
                                 <div className="ContactIcon">
                                     <Image src={Whatsapp} alt="Whatsapp" />
                                 </div>
+                                <h5>{contact.whatsapp}</h5>
                             </div>
                             </a>
                             <a href={`https://line.me/ti/p/~${contact.line}`} target="_blank" rel="noopener noreferrer">
                             <div className="Line">
-                                <h5>{contact.line}</h5>
                                 <div className="ContactIcon">
                                     <Image src={Line} alt="Line" />
                                 </div>
+                                <h5>{contact.line}</h5>
                             </div>
                             </a>
                         </>

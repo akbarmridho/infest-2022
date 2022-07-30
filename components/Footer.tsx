@@ -16,11 +16,11 @@ const Footer = ({ eventContacts } : ContactsProps) => {
         <div className="bg-tgreen-300 h-80 FooterContainer">
             <div className="FooterAtas bg-tgreen-300">
                 <div className="FooterLeft">
-                    <div className="FooterTitle poppins-bold">
-                        <h1>INFEST 2022</h1>
+                    <div className="FooterTitle">
+                        <h1 className="font-tommy">INFEST 2022</h1>
                     </div>
                     <div className="FooterSubtitle">
-                        <h2>by KSEP ITB</h2>
+                        <h2 className="font-tommy">by KSEP ITB</h2>
                     </div>
                     <div className="FooterBody">
                         <h3>The Biggest Investment Festival held by KSEP ITB for Indonesia</h3>

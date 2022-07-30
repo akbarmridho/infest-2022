@@ -3,9 +3,6 @@
 }
 
 .FooterContainer h1 {
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: bold;
     font-size: 36px;
     line-height: 54px;
     align-items: center;
@@ -13,9 +10,6 @@
 }
 
 .FooterContainer h2 {
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 25px;
     height: 25px;
@@ -23,9 +17,6 @@
 }
 
 .FooterContainer h3 {
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     height: 36px;
@@ -34,13 +25,11 @@
 }
 
 .FooterContainer h4 {
-    font-family: sans-serif;
     color: #F1F4F8;
     margin-bottom: 16px;
 }
 
 .FooterContainer h5 {
-    font-family: sans-serif;
     height: 24px;
     color: #F1F4F8;
 }
@@ -96,7 +85,7 @@
     color: #F1F4F8;
     margin-bottom: 10px;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .Line{
@@ -104,12 +93,12 @@
     color: #F1F4F8;
     margin-bottom: 16px;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .FooterContact {
     display: flex;
-    text-align: right;
+    text-align: left;
     justify-content: flex-end;
 }
 
@@ -126,7 +115,7 @@
 }
 
 .ContactIcon {
-    margin-left: 8px;
+    margin-right: 8px;
     width: 1.33rem;
     height: 0.75rem;
 }
@@ -195,7 +184,6 @@ a {
     }
 
     .FooterContact {
-        justify-content: center;
         width: 100%
     }
 
@@ -212,11 +200,6 @@ a {
         order: -1;
         margin-left: 0;
         margin-right: 8px;
-    }
-
-    .Whatsapp, .Line {
-        text-align: left;
-        justify-content: flex-start;
     }
 
     .FooterTitleRight {
@@ -238,10 +221,6 @@ a {
         text-align: center;
         width: 100%;
         margin: 0;
-    }
-
-    .Whatsapp, .Line {
-        justify-content: center;
     }
 
     h5 {

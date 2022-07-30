@@ -23,7 +23,8 @@ module.exports = {
       },
       fontFamily: {
         tommy: ["tommy-medium", "sans-serif"],
-        wotfard: ["wotfard-regular", "sans-serif"]
+        wotfard: ["wotfard-regular", "sans-serif"],
+        tomlight: ["tommy-light", 'sans-serif']
       },
       animation: {
         'reverse-spin': 'reverse-spin 1s linear infinite'

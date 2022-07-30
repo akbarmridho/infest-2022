@@ -15,7 +15,7 @@ const Layout = ({children} : Props) => {
         <>
             <Header/>
                 <main className='relative'>
-                    <Image layout="fill" objectFit='cover' src={backgroundImage} alt="Background image" className="-z-10"/>
+                    <Image layout='fill' objectFit='cover' objectPosition='top' src={backgroundImage} alt="Background image" className="-z-10"/>
                     <div className="w-full xl:max-w-screen-xl relative mx-auto">
                         {children}
                     </div>
