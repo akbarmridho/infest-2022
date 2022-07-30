@@ -19,8 +19,17 @@ body {
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  width: 8px;
 }
+
+::-webkit-scrollbar-track {
+  @apply bg-tgreen-100
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-tgreen-300 rounded-full
+}
+
 
 .mx {
   @apply lg:mx-12 xl:mx-16 mx-6 my-8 lg:my-12
@@ -65,4 +74,4 @@ h1 {
   @apply text-transparent bg-clip-text bg-gradient-to-b from-tyellow-300 to-tyellow-100
 }
 
-@import 'footer.css'
+/* @import 'footer.css' */

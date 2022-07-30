@@ -73,20 +73,20 @@
         ],
         "qnas": [
             {
-                "question": "Kapan lomba equity research membuka pendaftaran?",
-                "answer": "Pendaftaran dibuka mulai tanggal 1-31 Agustus 2022"
+                "question": "Apakah peserta dapat mengikuti equity research competition dan trading competition sekaligus?",
+                "answer": "Peserta diperbolehkan untuk mengikuti 2 lomba sekaligus"
             },
             {
-                "question": "Kapan deadline pengumpulan paper?",
-                "answer": "1 September 2022"
+                "question": "Apakah lomba akan diadakan secara daring (online)? ",
+                "answer": "Equity research competition akan full diadakan secara daring (online) "
             },
             {
                 "question": "Apa saja emiten yang akan dianalisis?",
                 "answer": "Peserta dipersilakan untuk memilih salah satu dari tiga emiten berikut: CPIN, ERAA, dan MYOR"
             },
             {
-                "question": "Berapa biaya pendaftaran equity research competition?",
-                "answer": "Pendaftaran early bird (1-15 Agustus 2022) seharga Rp125.000, sedangkan pendaftaran biasa (16-31 Agustus 2022) seharga Rp175.000"
+                "question": "Kapan pengumpulan paper bisa dilakukan?",
+                "answer": "Pengumpulan paper bisa dilakukan dari tanggal 2 Agustus 2022 - 1 September 2022"
             },
             {
                 "question": "Apakah seluruh peserta equity research competition akan mendapatkan sertifikat?",
@@ -160,16 +160,16 @@
         ],
         "qnas": [
             {
-                "question": "Kapan lomba trading akan dilaksanakan?",
-                "answer": "Lomba trading dilaksanakan mulai tanggal 5 September hingga 23 September 2022 secara online"
+                "question": "Apakah peserta dapat mengikuti equity research competition dan trading competition sekaligus?",
+                "answer": "Peserta diperbolehkan untuk mengikuti 2 lomba sekaligus"
             },
             {
                 "question": "Platform apa yang akan digunakan dalam lomba trading?",
                 "answer": "Platform trading akan diumumkan lebih lanjut"
             },
             {
-                "question": "Berapa biaya pendaftaran trading competition?",
-                "answer": "Pendaftaran early bird (1-15 Agustus 2022) seharga Rp100.000, sedangkan pendaftaran biasa (16-31 Agustus 2022) seharga Rp150.000"
+                "question": "Apakah trading competition akan diadakan secara daring (online) ?",
+                "answer": "Trading competition akan diadakan full secara daring(online) dan asinkron"
             },
             {
                 "question": "Apakah seluruh peserta trading competition akan mendapatkan sertifikat?",

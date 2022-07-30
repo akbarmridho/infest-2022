@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { useState } from 'react'
 import logo from '../public/logo-mini.png'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const scale = (80-2*16)/logo.height
 
@@ -12,14 +13,14 @@ const Header = () => {
     const toggleOn = () => setDropdown(true)
     const toggleOff = () => setDropdown(false)
 
+    const router = useRouter()
+
     return (
         <>
             <div className="w-full bg-tgreen-300 h-20">
                 <div className="flex justify-between items-center">
                     <div className='my-4 ml-8'>
-                        <Link href='/' >
-                            <Image src={logo} alt="Logo mini" height={scale*logo.height} width={scale*logo.width}/>
-                        </Link>
+                        <Image src={logo} alt="Logo mini" height={scale*logo.height} width={scale*logo.width} onClick={() => router.push('/')}/>
                     </div>
                     <div className='mr-8 flex text-gray-100'>
                         <div className='mr-8 text-gray-100 text-lg hover:text-gray-300 hover:cursor-pointer'>

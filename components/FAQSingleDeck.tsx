@@ -1,20 +1,5 @@
 import FAQ, { FAQProps } from "./FAQ";
 
-const data = [
-    {
-        question: 'lorem ipsum dos color sit amet',
-        answer: 'this is some fucking answer loooong answer as;ldkjasdmsaoi asldjaslkdas asldkjashdkljas aslkjdas askljdhasljkd aslkjdhas'
-    },
-    {
-        question: 'lorem ipsum dos color sit amet',
-        answer: 'this is some fucking answer loooong answer as;ldkjasdmsaoi asldjaslkdas asldkjashdkljas aslkjdas askljdhasljkd aslkjdhas'
-    },
-    {
-        question: 'lorem ipsum dos color sit amet',
-        answer: 'this is some fucking answer loooong answer as;ldkjasdmsaoi asldjaslkdas asldkjashdkljas aslkjdas askljdhasljkd aslkjdhas'
-    }
-]
-
 
 interface Props {
     items: FAQProps[]
