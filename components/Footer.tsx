@@ -14,8 +14,8 @@ const Footer = ({ eventContacts } : ContactsProps) => {
     return (
         <>
         <div className="bg-tgreen-300">
-            <div className="flex flex-col md:flex-row md:justify-between py-10 px-16">
-                <div className="text-gray-100">
+            <div className="flex flex-col md:flex-row md:justify-between py-5 px-8 md:py-10 md:px-16">
+                <div className="text-gray-100 text-center md:text-left">
                     <div className="">
                         <h1 className="font-tommy text-4xl">INFEST 2022</h1>
                     </div>
@@ -25,7 +25,7 @@ const Footer = ({ eventContacts } : ContactsProps) => {
                     <div className="my-3">
                         <p className="text-sm">The Biggest Investment Festival held <br/> by KSEP ITB for Indonesia</p>
                     </div>
-                    <div className="flex space-x-2">
+                    <div className="flex space-x-2 justify-center md:justify-start">
                         <div className="">
                             <a href="https://instagram.com/infest.bdg" target="_blank" rel="noopener noreferrer">
                                 <Image src={Instagram} alt="instagram" width={40} height={40}/>
@@ -43,10 +43,10 @@ const Footer = ({ eventContacts } : ContactsProps) => {
                     </div>
                 </div>
                 <div className="">
-                    <div className="">
+                    <div className="text-center md:text-left">
                         <h1 className="text-4xl font-tommy text-gray-100">Informasi Kontak</h1>
                     </div>
-                    <div className="flex mt-3 text-gray-100">
+                    <div className="flex mt-3 text-gray-100 flex-col md:flex-row">
                         {
                             eventContacts.map((event, i) => {
                                 return <FooterContact title={event.title} contacts={event.contacts} key={i}/>

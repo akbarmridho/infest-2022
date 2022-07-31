@@ -51,15 +51,15 @@ h1 {
 }
 
 .h1 {
-  @apply text-7xl
+  @apply text-6xl md:text-7xl
 }
 
 .h2 {
-  @apply text-6xl
+  @apply text-5xl md:text-6xl
 }
 
 .h3 {
-  @apply text-2xl
+  @apply text-xl md:text-2xl
 }
 
 .p {
