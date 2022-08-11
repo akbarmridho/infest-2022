@@ -8,18 +8,32 @@
         "title": "Tema: Bandarmology",
         "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat"
     },
-    "speakers": [
-        {
-            "name": "John Doe",
-            "topic": "Is NFT in a downtren right now?",
-            "imageUrl": "speakers/speaker1.jpg"
-        },
-        {
-            "name": "John Doe",
-            "topic": "Is NFT in a downtren right now?",
-            "imageUrl": "speakers/speaker2.jpg"
-        }
-    ],
+    "speakers": {
+        "Day 1": [
+            {
+                "name": "Asep",
+                "topic": "Apa kabar bang?",
+                "imageUrl": "speakers/speaker1.jpg"
+            },
+            {
+                "name": "Akbar",
+                "topic": "PRS gws :((",
+                "imageUrl": "speakers/speaker2.jpg"
+            }
+        ],
+        "Day 2": [
+            {
+                "name": "Anjay",
+                "topic": "Turut berduka untuk kalian yang kena snipe",
+                "imageUrl": "speakers/speaker1.jpg"
+            },
+            {
+                "name": "Asik",
+                "topic": "Is NFT in a downtren right now?",
+                "imageUrl": "speakers/speaker2.jpg"
+            }
+        ]
+    },
     "benefits": [],
     "pricing": [
         {
