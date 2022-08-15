@@ -45,20 +45,15 @@ const NextArrow = (props: any) => {
 }
 
 const Slideshow = ({ items }: Props) => {
-  const [activeIndex, setActiveItems] = useState<number>(0)
-
-  const prevItem = () => {
-    setActiveItems((activeIndex - 1) % items.length)
-  }
-
-  const nextItem = () => {
-    setActiveItems((activeIndex + 1) % items.length)
-  }
-
   return (
     <div className="flex justify-center items-center lg:mx-12 xl:mx-16 mx-6">
       <div className="w-full ">
-        <Carousel showStatus={false} autoPlay={true} infiniteLoop={true}>
+        <Carousel
+          showStatus={false}
+          autoPlay={true}
+          infiniteLoop={true}
+          showThumbs={false}
+        >
           {items.map((item, index) => {
             return (
               <div key={index} className="my-8 lg:my-12">
