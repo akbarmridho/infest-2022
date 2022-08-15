@@ -4,10 +4,20 @@
     "content": "Main event INFEST 2022 merupakan sebuah kegiatan seminar dan talkshow yang dilaksanakan secara bauran selama dua hari. Per harinya, terdapat tiga mata acara dengan tema yang berbeda",
     "actions": []
   },
-  "about": {
-    "title": "Tema: Bandarmology",
-    "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat"
-  },
+  "theme": [
+    {
+      "title": "Tema: Bandarmology",
+      "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat"
+    },
+    {
+      "title": "Tema: 2",
+      "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat"
+    },
+    {
+      "title": "Tema: 3",
+      "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat"
+    }
+  ],
   "speakers": {
     "Day 1": [
       {

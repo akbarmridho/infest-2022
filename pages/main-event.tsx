@@ -1,28 +1,29 @@
-import type { GetStaticPaths, GetStaticProps } from "next";
-import Head from "next/head";
-import About from "../components/About";
-import EventBanner from "../components/EventBanner";
-import FAQSingleDeck from "../components/FAQSingleDeck";
-import Pricing from "../components/Pricing";
-import SpeakerDeck from "../components/SpeakerDeck";
-import Timeline from "../components/Timeline";
-import mainEventData from "../data/mainEvent.json";
+import type { GetStaticPaths, GetStaticProps } from "next"
+import Head from "next/head"
+import About from "../components/About"
+import EventBanner from "../components/EventBanner"
+import FAQSingleDeck from "../components/FAQSingleDeck"
+import Pricing from "../components/Pricing"
+import Slideshow from "../components/Slideshow"
+import SpeakerDeck from "../components/SpeakerDeck"
+import Timeline from "../components/Timeline"
+import mainEventData from "../data/mainEvent.json"
 
 export const getStaticProps: GetStaticProps = () => {
   return {
     props: {
       ...mainEventData,
     },
-  };
-};
+  }
+}
 
 interface Props {
-  hidden: boolean;
+  hidden: boolean
 }
 
 const MainEvent = ({
   banner,
-  about,
+  theme,
   speakers,
   benefits,
   pricing,
@@ -46,7 +47,7 @@ const MainEvent = ({
           actions={banner.actions}
         />
 
-        <About title={about.title} content={about.content} />
+        <Slideshow items={theme} />
         <SpeakerDeck speakers={speakers} />
         <Pricing title="Biaya" content={pricing} />
         <Timeline events={timeline} />
@@ -61,7 +62,7 @@ const MainEvent = ({
         )}
       </div>
     </>
-  );
-};
+  )
+}
 
-export default MainEvent;
+export default MainEvent
