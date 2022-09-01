@@ -16,13 +16,21 @@ const Speaker = ({ name, topic, imageUrl, pos }: SpeakerProps) => {
         }`}
       >
         <div className="w-48 h-48">
-          <Image
-            src={imageUrl}
-            alt={`Image of ${name}`}
-            width="200"
-            height="200"
-            className="rounded-full shadow-lg"
-          />
+          {imageUrl ? (
+            <Image
+              src={imageUrl}
+              alt={`Image of ${name}`}
+              width="192"
+              height="192"
+              className="rounded-full shadow-lg"
+            />
+          ) : (
+            <div className="w-full h-full bg-gray-600 opacity-40 rounded-full shadow-lg relative">
+              <span className="text-8xl font-bold absolute top-11 left-[75px] text-gray-200">
+                ?
+              </span>
+            </div>
+          )}
         </div>
         <div className={`sm:my-auto space-y-2 mx-4 text-gray-100`}>
           <h4

@@ -1,180 +1,180 @@
 {
-    "research": {
-        "banner": {
-            "title": "Equity Research Competition",
-            "content": "Kompetisi yang bertujuan melatih peserta dalam menganalisis suatu emiten yang ditentukan panitia secara detail dan akurat",
-            "actions": [
-                {
-                    "name": "Registrasi",
-                    "href": "http://bit.ly/EquityResearchCompetition"
-                },
-                {
-                    "name": "Guidebook",
-                    "href": "http://bit.ly/GuidebookINFEST2022"
-                }
-            ]
+  "research": {
+    "banner": {
+      "title": "Equity Research Competition",
+      "content": "Kompetisi yang bertujuan melatih peserta dalam menganalisis suatu emiten yang ditentukan panitia secara detail dan akurat",
+      "actions": [
+        {
+          "name": "Registrasi",
+          "href": "http://bit.ly/EquityResearchCompetition"
         },
-        "about": {
-            "title": "Tentang",
-            "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat"
-        },
-        "rewards": [
-            {
-                "position": 1,
-                "backgroundColor": "#FFD700",
-                "prize": "Rp5.000.000"
-            },
-            {
-                "position": 2,
-                "backgroundColor": "#DBD7CE",
-                "prize": "Rp3.000.000"
-            },
-            {
-                "position": 3,
-                "backgroundColor": "#F69312",
-                "prize": "Rp2.000.000"
-            }
-        ],
-        "pricing": [
-            {
-                "name": "Early Bird (1 Agustus - 15 Agustus 2022)",
-                "price": "Rp120.000"
-            },
-            {
-                "name": "Normal (16 Agustus - 31 Agustus 2022)",
-                "price": "Rp180.000"
-            }
-        ],
-        "timeline": [
-            {
-                "name": "Registrasi (Early Bird)",
-                "date": "1-15 Agustus 2022"
-            },
-            {
-                "name": "Registrasi (Normal)",
-                "date": "16-31 Agustus 2022"
-            },
-            {
-                "name": "Batas Pengumpulan Paper",
-                "date": "1 September 2022"
-            },
-            {
-                "name": "Pengumuman Finalis",
-                "date": "15 September 2022"
-            },
-            {
-                "name": "Tahap Final",
-                "date": "25 September 2022"
-            },
-            {
-                "name": "Pengumuman Pemenang",
-                "date": "2 Oktober 2022"
-            }
-        ],
-        "qnas": [
-            {
-                "question": "Apakah peserta dapat mengikuti equity research competition dan trading competition sekaligus?",
-                "answer": "Peserta diperbolehkan untuk mengikuti 2 lomba sekaligus"
-            },
-            {
-                "question": "Apakah lomba akan diadakan secara daring (online)? ",
-                "answer": "Equity research competition akan full diadakan secara daring (online) "
-            },
-            {
-                "question": "Apa saja emiten yang akan dianalisis?",
-                "answer": "Peserta dipersilakan untuk memilih salah satu dari tiga emiten berikut: CPIN, ERAA, dan MYOR"
-            },
-            {
-                "question": "Kapan pengumpulan paper bisa dilakukan?",
-                "answer": "Pengumpulan paper bisa dilakukan dari tanggal 2 Agustus 2022 - 1 September 2022"
-            },
-            {
-                "question": "Apakah seluruh peserta equity research competition akan mendapatkan sertifikat?",
-                "answer": "Ya, semua peserta akan mendapatkan sertifikat. Sertifikat akan dikirimkan melalui email ketua kelompok"
-            }
-        ]
+        {
+          "name": "Guidebook",
+          "href": "http://bit.ly/GuidebookINFEST2022"
+        }
+      ]
     },
-    "trading": {
-        "banner": {
-            "title": "Trading Competition",
-            "content": "Kompetisi untuk memperoleh keuntungan sebesar-besarnya menggunakan dana virtual pada sebuah trading platform dalam jangka waktu 3 minggu",
-            "actions": [
-                {
-                    "name": "Registrasi",
-                    "href": "https://bit.ly/DaftarTradingCompetition"
-                },
-                {
-                    "name": "Guidebook",
-                    "href": "http://bit.ly/GuidebookINFEST2022"
-                }
-            ]
+    "about": {
+      "title": "Tentang",
+      "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat"
+    },
+    "rewards": [
+      {
+        "position": 1,
+        "backgroundColor": "#FFD700",
+        "prize": "Rp5.000.000"
+      },
+      {
+        "position": 2,
+        "backgroundColor": "#DBD7CE",
+        "prize": "Rp3.000.000"
+      },
+      {
+        "position": 3,
+        "backgroundColor": "#F69312",
+        "prize": "Rp2.000.000"
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Early Bird (1 Agustus - 15 Agustus 2022)",
+        "price": "Rp120.000"
+      },
+      {
+        "name": "Normal (16 Agustus - 31 Agustus 2022)",
+        "price": "Rp180.000"
+      }
+    ],
+    "timeline": [
+      {
+        "name": "Registrasi (Early Bird)",
+        "date": "1-15 Agustus 2022"
+      },
+      {
+        "name": "Registrasi (Normal)",
+        "date": "16-31 Agustus 2022"
+      },
+      {
+        "name": "Batas Pengumpulan Paper",
+        "date": "1 September 2022"
+      },
+      {
+        "name": "Pengumuman Finalis",
+        "date": "15 September 2022"
+      },
+      {
+        "name": "Tahap Final",
+        "date": "25 September 2022"
+      },
+      {
+        "name": "Pengumuman Pemenang",
+        "date": "2 Oktober 2022"
+      }
+    ],
+    "qnas": [
+      {
+        "question": "Kapan pengumpulan paper bisa dilakukan?",
+        "answer": "Pengumpulan paper bisa dilakukan dari tanggal 2 Agustus 2022 - 1 September 2022"
+      },
+      {
+        "question": "Apa saja emiten yang akan dianalisis?",
+        "answer": "Peserta dipersilakan untuk memilih salah satu dari tiga emiten berikut: CPIN, ERAA, dan MYOR"
+      },
+      {
+        "question": "Apakah lomba akan diadakan secara daring (online)? ",
+        "answer": "Equity research competition akan full diadakan secara daring (online) "
+      },
+      {
+        "question": "Apakah seluruh peserta equity research competition akan mendapatkan sertifikat?",
+        "answer": "Ya, semua peserta akan mendapatkan sertifikat. Sertifikat akan dikirimkan melalui email ketua kelompok"
+      },
+      {
+        "question": "Apakah peserta dapat mengikuti equity research competition dan trading competition sekaligus?",
+        "answer": "Peserta diperbolehkan untuk mengikuti 2 lomba sekaligus"
+      }
+    ]
+  },
+  "trading": {
+    "banner": {
+      "title": "Trading Competition",
+      "content": "Kompetisi untuk memperoleh keuntungan sebesar-besarnya menggunakan dana virtual pada sebuah trading platform dalam jangka waktu 3 minggu",
+      "actions": [
+        {
+          "name": "Registrasi",
+          "href": "https://bit.ly/DaftarTradingCompetition"
         },
-        "about": {
-            "title": "Tentang",
-            "content": "Kompetisi tim yang beranggotakan 1 s.d. 3 orang. Peserta akan dibekali dana virtual yang harus digunakan untuk mendapatkan keuntungan yang sebesar-besarnya dengan analisis teknikal, bandarmologi, atau yang lainnya"
-        },
-        "rewards": [
-            {
-                "position": 1,
-                "backgroundColor": "#FFD700",
-                "prize": "Rp4.500.000"
-            },
-            {
-                "position": 2,
-                "backgroundColor": "#DBD7CE",
-                "prize": "Rp2.500.000"
-            },
-            {
-                "position": 3,
-                "backgroundColor": "#F69312",
-                "prize": "Rp1.500.000"
-            }
-        ],
-        "pricing": [
-            {
-                "name": "Early Bird (1 Agustus - 15 Agustus 2022)",
-                "price": "Rp100.000"
-            },
-            {
-                "name": "Normal (16 Agustus - 31 Agustus 2022)",
-                "price": "Rp150.000"
-            }
-        ],
-        "timeline": [
-            {
-                "name": "Registrasi (Early Bird)",
-                "date": "1-15 Agustus 2022"
-            },
-            {
-                "name": "Registrasi (Normal)",
-                "date": "16-31 Agustus 2022"
-            },
-            {
-                "name": "Perlombaan",
-                "date": "5-23 September 2022"
-            },
-            {
-                "name": "Pengumuman Pemenang",
-                "date": "2 Oktober 2022"
-            }
-        ],
-        "qnas": [
-            {
-                "question": "Apakah peserta dapat mengikuti equity research competition dan trading competition sekaligus?",
-                "answer": "Peserta diperbolehkan untuk mengikuti 2 lomba sekaligus"
-            },
-            {
-                "question": "Platform apa yang akan digunakan dalam lomba trading?",
-                "answer": "Platform trading akan diumumkan lebih lanjut"
-            },
-            {
-                "question": "Apakah trading competition akan diadakan secara daring (online) ?",
-                "answer": "Trading competition akan diadakan full secara daring(online) dan asinkron"
-            },
-            {
-                "question": "Apakah seluruh peserta trading competition akan mendapatkan sertifikat?",
-                "answer": "Ya, semua peserta akan mendapatkan sertifikat. Sertifikat akan dikirimkan melalui email ketua kelompok"
-            }
-        ]
-    }
+        {
+          "name": "Guidebook",
+          "href": "http://bit.ly/GuidebookINFEST2022"
+        }
+      ]
+    },
+    "about": {
+      "title": "Tentang",
+      "content": "Kompetisi tim yang beranggotakan 1 s.d. 3 orang. Peserta akan dibekali dana virtual yang harus digunakan untuk mendapatkan keuntungan yang sebesar-besarnya dengan analisis teknikal, bandarmologi, atau yang lainnya"
+    },
+    "rewards": [
+      {
+        "position": 1,
+        "backgroundColor": "#FFD700",
+        "prize": "Rp4.500.000"
+      },
+      {
+        "position": 2,
+        "backgroundColor": "#DBD7CE",
+        "prize": "Rp2.500.000"
+      },
+      {
+        "position": 3,
+        "backgroundColor": "#F69312",
+        "prize": "Rp1.500.000"
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Early Bird (1 Agustus - 15 Agustus 2022)",
+        "price": "Rp100.000"
+      },
+      {
+        "name": "Normal (16 Agustus - 31 Agustus 2022)",
+        "price": "Rp150.000"
+      }
+    ],
+    "timeline": [
+      {
+        "name": "Registrasi (Early Bird)",
+        "date": "1-15 Agustus 2022"
+      },
+      {
+        "name": "Registrasi (Normal)",
+        "date": "16-31 Agustus 2022"
+      },
+      {
+        "name": "Perlombaan",
+        "date": "5-23 September 2022"
+      },
+      {
+        "name": "Pengumuman Pemenang",
+        "date": "2 Oktober 2022"
+      }
+    ],
+    "qnas": [
+      {
+        "question": "Platform apa yang akan digunakan dalam lomba trading?",
+        "answer": "Platform trading yang digunakan adalah Philip Sekuritas"
+      },
+      {
+        "question": "Apakah trading competition akan diadakan secara daring (online) ?",
+        "answer": "Trading competition akan diadakan full secara daring(online) dan asinkron"
+      },
+      {
+        "question": "Apakah seluruh peserta trading competition akan mendapatkan sertifikat?",
+        "answer": "Ya, semua peserta akan mendapatkan sertifikat. Sertifikat akan dikirimkan melalui email ketua kelompok"
+      },
+      {
+        "question": "Apakah peserta dapat mengikuti equity research competition dan trading competition sekaligus?",
+        "answer": "Peserta diperbolehkan untuk mengikuti 2 lomba sekaligus"
+      }
+    ]
+  }
 }

@@ -1,114 +1,118 @@
 {
-    "about": {
-        "title": "Apa itu INFEST?",
-        "content": "Investment Festival (INFEST) adalah acara tahunan yang diselenggarakan oleh Kelompok Studi Ekonomi Pasar Modal (KSEP) ITB yang berupa seminar, talkshow, lomba trading, dan lomba riset ekuitas. Acara ini akan diselenggarakan secara bauran dengan seminar dan talkshow sebagai acara utamanya. Secara keseluruhan, mata acara INFEST 2022 akan merangkup dasar dan pola pikir investasi, gambaran ekonomi dan pasar modal, strategi berinvestasi, serta potensi investasi pasca krisis"
+  "about": {
+    "title": "Apa itu INFEST?",
+    "content": "Investment Festival (INFEST) adalah acara tahunan yang diselenggarakan oleh Kelompok Studi Ekonomi Pasar Modal (KSEP) ITB yang berupa seminar, talkshow, lomba trading, dan lomba riset ekuitas. Acara ini akan diselenggarakan secara bauran dengan seminar dan talkshow sebagai acara utamanya. Secara keseluruhan, mata acara INFEST 2022 akan merangkup dasar dan pola pikir investasi, gambaran ekonomi dan pasar modal, strategi berinvestasi, serta potensi investasi pasca krisis"
+  },
+  "theme": {
+    "title": "Investing: What Now?",
+    "content": "INFEST 2022 mengangkat tema \"Investing: What Now?\" yang dilatarbelakangi oleh peningkatan jumlah investor secara eksponensial pada tahun 2021. Sebagian besar dari mereka menginvestasikan uangnya menjelang bear market. Tahun ini, investor baru akan lebih sulit meraup keuntungan dengan kondisi pasar yang bergejolak. Oleh karena itu, INFEST 2022 akan memberi panduan dalam menghadapi kondisi pasar yang berbeda dibandingkan tahun-tahun sebelumnya"
+  },
+  "events": [
+    {
+      "title": "Trading Competition",
+      "content": "Kompetisi tim yang beranggotakan 1 s.d. 3 orang. Peserta akan dibekali dana virtual yang harus digunakan untuk mendapatkan keuntungan yang sebesar-besarnya dengan analisis teknikal, bandarmologi, atau yang lainnya",
+      "href": "/competition/trading"
     },
-    "theme": {
-        "title": "Investing: What Now?",
-        "content": "INFEST 2022 mengangkat tema \"Investing: What Now?\" yang dilatarbelakangi oleh peningkatan jumlah investor secara eksponensial pada tahun 2021. Sebagian besar dari mereka menginvestasikan uangnya menjelang bear market. Tahun ini, investor baru akan lebih sulit meraup keuntungan dengan kondisi pasar yang bergejolak. Oleh karena itu, INFEST 2022 akan memberi panduan dalam menghadapi kondisi pasar yang berbeda dibandingkan tahun-tahun sebelumnya"
+    {
+      "title": "Equity Research Competition",
+      "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat",
+      "href": "/competition/research"
     },
-    "events": [
-        {
-            "title": "Trading Competition",
-            "content": "Kompetisi tim yang beranggotakan 1 s.d. 3 orang. Peserta akan dibekali dana virtual yang harus digunakan untuk mendapatkan keuntungan yang sebesar-besarnya dengan analisis teknikal, bandarmologi, atau yang lainnya",
-            "href": "/competition/trading"
-        },
-        {
-            "title": "Equity Research Competition",
-            "content": "Kompetisi tim yang beranggotakan 3 orang. Kompetisi ini menitikberatkan kemampuan sebuah tim untuk menganalisis emiten yang disediakan secara detail dan akurat",
-            "href": "/competition/research"
-        },
-        {
-            "title": "Main Event",
-            "content": "Main event INFEST 2022 merupakan sebuah kegiatan seminar dan talkshow yang dilaksanakan secara bauran selama dua hari. Per harinya, terdapat tiga mata acara dengan tema yang berbeda",
-            "href": "/main-event"
-        }
-    ],
-    "teaser": "",
-    "timeline": [
-        {
-            "name": "Launch",
-            "date": "Agustus 2022"
-        },
-        {
-            "name": "Equity Research Competition",
-            "date": "1 Agustus - 1 September 2022"
-        },
-        {
-            "name": "Trading Competition",
-            "date": "5 September - 23 September 2022"
-        },
-        {
-            "name": "Main Event",
-            "date": "1-2 Oktober 2022"
-        }
-    ],
-    "qnas": {
-        "Trading": [
-            {
-                "question": "Apakah peserta dapat mengikuti equity research competition dan trading competition sekaligus?",
-                "answer": "Peserta diperbolehkan untuk mengikuti 2 lomba sekaligus"
-            },
-            {
-                "question": "Platform apa yang akan digunakan dalam lomba trading?",
-                "answer": "Platform trading akan diumumkan lebih lanjut"
-            },
-            {
-                "question": "Apakah trading competition akan diadakan secara daring (online) ?",
-                "answer": "Trading competition akan diadakan full secara daring(online) dan asinkron"
-            },
-            {
-                "question": "Apakah seluruh peserta trading competition akan mendapatkan sertifikat?",
-                "answer": "Ya, semua peserta akan mendapatkan sertifikat. Sertifikat akan dikirimkan melalui email ketua kelompok"
-            }
-        ],
-        "Equity Research": [
-            {
-                "question": "Apakah peserta dapat mengikuti equity research competition dan trading competition sekaligus?",
-                "answer": "Peserta diperbolehkan untuk mengikuti 2 lomba sekaligus"
-            },
-            {
-                "question": "Apakah lomba akan diadakan secara daring (online)? ",
-                "answer": "Equity research competition akan full diadakan secara daring (online) "
-            },
-            {
-                "question": "Apa saja emiten yang akan dianalisis?",
-                "answer": "Peserta dipersilakan untuk memilih salah satu dari tiga emiten berikut: CPIN, ERAA, dan MYOR"
-            },
-            {
-                "question": "Kapan pengumpulan paper bisa dilakukan?",
-                "answer": "Pengumpulan paper bisa dilakukan dari tanggal 2 Agustus 2022 - 1 September 2022"
-            },
-            {
-                "question": "Apakah seluruh peserta equity research competition akan mendapatkan sertifikat?",
-                "answer": "Ya, semua peserta akan mendapatkan sertifikat. Sertifikat akan dikirimkan melalui email ketua kelompok"
-            }
-        ],
-        "Main Event": [
-            {
-                "question": "Kapan pendaftarannya dibuka?",
-                "answer": "Tanggal 1 September sampai dengan 23 September 2022"
-            },
-            {
-                "question": "Acara INFEST 2022 akan dilaksanakan kapan?",
-                "answer": "1-2 Oktober, ya!"
-            },
-            {
-                "question": "Acaranya akan dilaksanakan offline atau online?",
-                "answer": "Acara akan dilangsungkan offline sekaligus online. Kamu dapat memilih untuk hadir secara offline atau online. Untuk offline, kegiatan akan dilaksanakan di Bandung"
-            },
-            {
-                "question": "Acaranya apa saja?",
-                "answer": "Ada talkshow dan webinar dengan berbagai topik yang tentunya sangat bermanfaat bagi kita semua"
-            },
-            {
-                "question": "Berapa harga tiketnya?",
-                "answer": "Yang pasti lebih murah dari harga tiket Trans Studio"
-            },
-            {
-                "question": "Kalau hanya ikut satu mata acara, apakah bisa mendapatkan sertifikat?",
-                "answer": "Untuk mendapatkan sertifikat, kamu harus datang di tiga mata acara, ya"
-            }
-        ]
+    {
+      "title": "Main Event",
+      "content": "Main event INFEST 2022 merupakan sebuah kegiatan seminar dan talkshow yang dilaksanakan secara bauran selama dua hari. Per harinya, terdapat tiga mata acara dengan tema yang berbeda",
+      "href": "/main-event"
     }
+  ],
+  "teaser": "",
+  "timeline": [
+    {
+      "name": "Launch",
+      "date": "Agustus 2022"
+    },
+    {
+      "name": "Equity Research Competition",
+      "date": "1 Agustus - 1 September 2022"
+    },
+    {
+      "name": "Trading Competition",
+      "date": "5 September - 23 September 2022"
+    },
+    {
+      "name": "Main Event",
+      "date": "1-2 Oktober 2022"
+    }
+  ],
+  "qnas": {
+    "Trading": [
+      {
+        "question": "Platform apa yang akan digunakan dalam lomba trading?",
+        "answer": "Platform trading yang digunakan adalah Philip Sekuritas"
+      },
+      {
+        "question": "Apakah trading competition akan diadakan secara daring (online) ?",
+        "answer": "Trading competition akan diadakan full secara daring(online) dan asinkron"
+      },
+      {
+        "question": "Apakah seluruh peserta trading competition akan mendapatkan sertifikat?",
+        "answer": "Ya, semua peserta akan mendapatkan sertifikat. Sertifikat akan dikirimkan melalui email ketua kelompok"
+      },
+      {
+        "question": "Apakah peserta dapat mengikuti equity research competition dan trading competition sekaligus?",
+        "answer": "Peserta diperbolehkan untuk mengikuti 2 lomba sekaligus"
+      }
+    ],
+    "Equity Research": [
+      {
+        "question": "Kapan pengumpulan paper bisa dilakukan?",
+        "answer": "Pengumpulan paper bisa dilakukan dari tanggal 2 Agustus 2022 - 1 September 2022"
+      },
+      {
+        "question": "Apa saja emiten yang akan dianalisis?",
+        "answer": "Peserta dipersilakan untuk memilih salah satu dari tiga emiten berikut: CPIN, ERAA, dan MYOR"
+      },
+      {
+        "question": "Apakah lomba akan diadakan secara daring (online)? ",
+        "answer": "Equity research competition akan full diadakan secara daring (online) "
+      },
+      {
+        "question": "Apakah seluruh peserta equity research competition akan mendapatkan sertifikat?",
+        "answer": "Ya, semua peserta akan mendapatkan sertifikat. Sertifikat akan dikirimkan melalui email ketua kelompok"
+      },
+      {
+        "question": "Apakah peserta dapat mengikuti equity research competition dan trading competition sekaligus?",
+        "answer": "Peserta diperbolehkan untuk mengikuti 2 lomba sekaligus"
+      }
+    ],
+    "Main Event": [
+      {
+        "question": "Kapan pendaftarannya dibuka?",
+        "answer": "Tanggal 1 September sampai dengan 23 September 2022"
+      },
+      {
+        "question": "Acara INFEST 2022 akan dilaksanakan kapan?",
+        "answer": "1-2 Oktober, ya!"
+      },
+      {
+        "question": "Apakah peserta offline akan mendapatkan konsumsi?",
+        "answer": "Biaya pendaftaran offline sudah termasuk konsumsi untuk hari tersebut"
+      },
+      {
+        "question": "Acaranya akan dilaksanakan offline atau online?",
+        "answer": "Acaranya ofline dan online, ya. Kegiatan offline akan dilaksanakan di Aula Barat ITB dan kegiatan online akan diberitahu lebih lanjut"
+      },
+      {
+        "question": "Acaranya apa saja?",
+        "answer": "Ada talkshow dan webinar dengan berbagai topik yang tentunya sangat bermanfaat bagi kita semua"
+      },
+      {
+        "question": "Berapa harga tiketnya?",
+        "answer": "Sudah tertera di bagian atas, ya"
+      },
+      {
+        "question": "Kalau hanya ikut satu mata acara, apakah bisa mendapatkan sertifikat?",
+        "answer": "Untuk mendapatkan sertifikat, kamu harus datang di tiga mata acara, ya"
+      }
+    ]
+  }
 }

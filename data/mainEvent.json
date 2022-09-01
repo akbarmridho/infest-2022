@@ -40,22 +40,17 @@
         "imageUrl": "/speakers/andri.jpg"
       },
       {
-        "name": "Mirae",
+        "name": "TBA",
         "topic": "Portfolio Management and Performance",
-        "imageUrl": "/speakers/mirae.jpg"
+        "imageUrl": ""
       },
       {
-        "name": "Stockbit",
+        "name": "TBA",
         "topic": "Sectoral Analysis",
-        "imageUrl": "/speakers/stockbit.webp"
+        "imageUrl": ""
       }
     ],
     "Day 2": [
-      {
-        "name": "Sinarmas",
-        "topic": "Property",
-        "imageUrl": "/speakers/sinarmas.png"
-      },
       {
         "name": "Ryan Filbert",
         "topic": "Bandarmology",
@@ -65,18 +60,31 @@
         "name": "Melvin Mumpuni",
         "topic": "Macroeconomics",
         "imageUrl": "/speakers/melvin.jpg"
+      },
+      {
+        "name": "TBA",
+        "topic": "Property",
+        "imageUrl": ""
       }
     ]
   },
   "benefits": [],
   "pricing": [
     {
-      "name": "Early Bird (1 Agustus - 15 Agustus 2022)",
-      "price": "Rp120.000"
+      "name": "Bundle Offline Day 1 & 2",
+      "price": "Rp75.000"
     },
     {
-      "name": "Normal (16 Agustus - 31 Agustus 2022)",
-      "price": "Rp180.000"
+      "name": "Bundle Online Day 1 & 2",
+      "price": "Rp65.000"
+    },
+    {
+      "name": "Offline Day 1 atau 2",
+      "price": "Rp50.000"
+    },
+    {
+      "name": "Online Day 1 atau 2",
+      "price": "Rp40.000"
     }
   ],
   "timeline": [
@@ -99,6 +107,10 @@
       "answer": "1-2 Oktober, ya!"
     },
     {
+      "question": "Apakah peserta offline akan mendapatkan konsumsi?",
+      "answer": "Biaya pendaftaran offline sudah termasuk konsumsi untuk hari tersebut"
+    },
+    {
       "question": "Acaranya akan dilaksanakan offline atau online?",
       "answer": "Acaranya ofline dan online, ya. Kegiatan offline akan dilaksanakan di Aula Barat ITB dan kegiatan online akan diberitahu lebih lanjut"
     },
@@ -108,7 +120,7 @@
     },
     {
       "question": "Berapa harga tiketnya?",
-      "answer": "Yang pasti lebih murah dari harga tiket Trans Studio"
+      "answer": "Sudah tertera di bagian atas, ya"
     },
     {
       "question": "Kalau hanya ikut satu mata acara, apakah bisa mendapatkan sertifikat?",
