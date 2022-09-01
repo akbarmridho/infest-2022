@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'tommy-medium';
-  src: url('/fonts/Made Tommy Medium.otf');
+  font-family: "tommy-medium";
+  src: url("/fonts/Made Tommy Medium.otf");
 }
 
 @font-face {
-  font-family: 'tommy-light';
-  src: url('/fonts/Made Tommy Light.otf');
+  font-family: "tommy-light";
+  src: url("/fonts/Made Tommy Light.otf");
 }
 
 html,
@@ -23,16 +23,15 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-tgreen-100
+  @apply bg-tgreen-100;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-tgreen-300 rounded-full
+  @apply bg-tgreen-300 rounded-full;
 }
 
-
 .mx {
-  @apply lg:mx-12 xl:mx-16 mx-6 my-8 lg:my-12
+  @apply lg:mx-12 xl:mx-16 mx-6 my-8 lg:my-12;
 }
 
 .flip-x {
@@ -42,36 +41,36 @@ body {
 p,
 button,
 li {
-  @apply font-tomlight
+  @apply font-tomlight;
 }
 
 h2,
 h1 {
-  @apply font-tommy
+  @apply font-tommy;
 }
 
 .h1 {
-  @apply text-6xl md:text-7xl
+  @apply text-6xl md:text-7xl;
 }
 
 .h2 {
-  @apply text-5xl md:text-6xl
+  @apply text-4xl md:text-5xl;
 }
 
 .h3 {
-  @apply text-xl md:text-2xl
+  @apply text-xl md:text-2xl;
 }
 
 .p {
-  @apply text-xl
+  @apply text-xl;
 }
 
 .bg-gradient {
-  @apply bg-gradient-to-b from-tyellow-200 to-tyellow-100
+  @apply bg-gradient-to-b from-tyellow-200 to-tyellow-100;
 }
 
 .text-gradient {
-  @apply text-transparent bg-clip-text bg-gradient-to-b from-tyellow-300 to-tyellow-100
+  @apply text-transparent bg-clip-text bg-gradient-to-b from-tyellow-300 to-tyellow-100;
 }
 
 /* @import 'footer.css' */

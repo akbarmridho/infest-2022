@@ -1,10 +1,10 @@
-import Image from "next/image";
+import Image from "next/image"
 
 export interface SpeakerProps {
-  name: string;
-  topic: string;
-  imageUrl: string;
-  pos: "left" | "right";
+  name: string
+  topic: string
+  imageUrl: string
+  pos: "left" | "right"
 }
 
 const Speaker = ({ name, topic, imageUrl, pos }: SpeakerProps) => {
@@ -21,7 +21,7 @@ const Speaker = ({ name, topic, imageUrl, pos }: SpeakerProps) => {
             alt={`Image of ${name}`}
             width="200"
             height="200"
-            className="rounded-full"
+            className="rounded-full shadow-lg"
           />
         </div>
         <div className={`sm:my-auto space-y-2 mx-4 text-gray-100`}>
@@ -43,7 +43,7 @@ const Speaker = ({ name, topic, imageUrl, pos }: SpeakerProps) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Speaker;
+export default Speaker
