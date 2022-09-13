@@ -16,7 +16,7 @@
       "content": "Semua Investor pasti memiliki sebuah portfolio mulai dari investor saham hingga investor kripto, pasti mengenal dengan sangat baik arti dari sebuah portfolio. Mengatur sebuah portofolio dan mempertahankan performa yang baik dalam portfolio sudah menjadi suatu kewajiban bagi setiap investor. Mata acara INFEST 2022 ini akan membimbing para investor saham pemula tahap-tahap melakukan manajemen portofolio yang baik. Acara INFEST ini pun akan menjelaskan secara detail faktor apa saja yang wajib diperhatikan untuk mempertahankan performa portofolio seperti yang telah dicapai oleh investor-investor sukses lainnya."
     },
     {
-      "title": "Commodity as a Defensive Sector Over Inflation",
+      "title": "Is Commodity a Great Defensive Sector Over Inflation?",
       "content": "Inflasi dapat diartikan sebagai peningkatan berkelanjutan yang dialami oleh harga barang dan jasa secara umum dalam kurun waktu tertentu. Ketika harga pangan dan energi mencapai puncaknya dan meraih rekor harga tertinggi, inflasi tentu saja tidak dapat dihindari. Lalu, bagaimana pengaruhnya terhadap perekonomian Indonesia? Sektor mana sajakah yang bisa diuntungkan dari inflasi yang begitu tinggi?"
     },
     {
@@ -24,7 +24,7 @@
       "content": "Pada usia yang lebih muda, investasi dalam aset seperti obligasi, saham, dan kripto jauh lebih umum dibandingkan investasi properti. Banyak orang bahkan tidak menyertakan investasi properti sebagai pilihan untuk meningkatkan nilai aset mereka. Namun, dengan nilai investasi yang cenderung selalu naik, semua orang tentunya mempunyai impian untuk bisa menguasai investasi properti. Maka dari itu, INFEST 2022 ini akan memberikan bimbingan mengenai persyaratan dan juga bagaimana cara terbaik untuk dapat memiliki properti dalam jangka waktu yang dekat maupun panjang."
     },
     {
-      "title": "Bandarmology",
+      "title": "Bandarmology: What it is and How it Works",
       "content": "Bandarmology adalah metode analisis alternatif untuk analisis fundamental dan teknikal klasik. Metode ini  relatif baru dibandingkan dengan dua metode analisis lainnya. Bandarmology ini berhubungan dengan akumulasi dan distribusi modal yang dapat mengontrol pergerakan harga sebuah emiten. Dengan pertimbangan tersebut, bagaimana Anda mendapat keuntungan dari bandarmology, dan apakah metode ini lebih baik dibandingkan dua metode analisis lainnya?"
     },
     {
@@ -36,34 +36,34 @@
     "Day 1": [
       {
         "name": "Andri Lau",
-        "topic": "Mindset of Investing",
+        "topic": "The Mindset Of Investing",
         "imageUrl": "/speakers/andri.jpg"
       },
       {
-        "name": "TBA",
+        "name": "Ilham Muslim",
         "topic": "Portfolio Management and Performance",
-        "imageUrl": ""
+        "imageUrl": "/speakers/Ilham_Muslim.jpg"
       },
       {
-        "name": "TBA",
-        "topic": "Sectoral Analysis",
-        "imageUrl": ""
+        "name": "Anggaraksa Arismunandar",
+        "topic": "Is Commodity a Great Defensive Sector Over Inflation?",
+        "imageUrl": "/speakers/anggaraksa.jpg"
       }
     ],
     "Day 2": [
       {
         "name": "Ryan Filbert",
-        "topic": "Bandarmology",
-        "imageUrl": "/speakers/ryan.jpg"
+        "topic": "Bandarmology: What it is and How it Works",
+        "imageUrl": "/speakers/Ryan-Filbert.png"
       },
       {
-        "name": "TBA",
+        "name": "Melvin Mumpuni",
         "topic": "Macroeconomics",
-        "imageUrl": ""
+        "imageUrl": "/speakers/Melvin_Mumpuni.png"
       },
       {
         "name": "TBA",
-        "topic": "Property",
+        "topic": "Getting My First Property",
         "imageUrl": ""
       }
     ]
